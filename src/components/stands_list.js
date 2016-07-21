@@ -4,7 +4,6 @@ import { fetchStands } from '../actions/index';
 
 class StandsList extends Component {
   componentWillMount() {
-    console.log(this.props);
     this.props.fetchStands();
   }
 
@@ -15,4 +14,11 @@ class StandsList extends Component {
   }
 }
 
-export default connect(null, { fetchStands })(StandsList);
+function MapStateToProps(state) {
+  return {
+    stands: state.stands
+  };
+}
+
+
+export default connect(MapStateToProps, { fetchStands })(StandsList);

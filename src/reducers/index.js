@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import  StandsReducer from './reducer_stands';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  stands: StandsReducer
 });
 
 export default rootReducer;
