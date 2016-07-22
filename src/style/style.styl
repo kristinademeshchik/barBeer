@@ -17,32 +17,15 @@ body
 
     justify-content: flex-start
     flex-flow: column wrap
-    align-content: stretch
+    align-content: flex-start
 
 .box
   position: relative
 
-  @media only screen and (max-width : 360px)
-      width: 100%;
-      padding-bottom: 100%;
+  &__image
+    max-height: 100%
+    max-width: 100%
 
-   @media only screen and (max-width : 650px) and (min-width : 361px)
-      width: 50%;
-      padding-bottom: 50%;
-
-   @media only screen and (max-width : 1050px) and (min-width : 651px)
-      width: 33.3%;
-      padding-bottom: 33.3%;
-
-    @media only screen and (max-width : 1290px) and (min-width : 1051px)
-      width: 25%;
-      padding-bottom: 25%;
-
-
-    &__image
-      max-height: 100%
-      max-width: 100%
-
-    &__inner
-     max-height: 100%
-     overflow: hidden
+  &__inner
+   max-height: 100%
+   overflow: hidden
