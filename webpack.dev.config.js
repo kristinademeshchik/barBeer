@@ -21,7 +21,7 @@ module.exports = {
       loader: 'style!css!autoprefixer?browser=last 2 versions!stylus'
     }, {
       test: /\.(png|jpg|svg|ttf|eot|woff|woff2)$/,
-      loader: 'file?name=[path][name].[ext]'
+      loader: 'file?name=[path][name].[ext]&limit=4096'
     }]
   },
   resolve: {
