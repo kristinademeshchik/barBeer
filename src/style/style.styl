@@ -4,15 +4,23 @@ body
  background: #EEE
  font-size: 13px
 
-.wrap
- overflow: hidden
- margin: 10px
+.container
+
+  &__inner
+    height: 100vh
+    overflow: hidden
+    display: flex
+    align-items: center
+    flex-direction: column
+    flex-flow: column wrap;
+    overflow-x: scroll
+
+    justify-content: flex-start
+    flex-flow: column wrap
+    align-content: stretch
 
 .box
-  float: left
   position: relative
-  width: 20%
-  padding-bottom: 20%
 
   @media only screen and (max-width : 360px)
       width: 100%;
@@ -32,12 +40,9 @@ body
 
 
     &__image
-      width: 100%
+      max-height: 100%
+      max-width: 100%
 
     &__inner
-     position: absolute
-     left: 10px
-     right: 10px
-     top: 10px
-     bottom: 10px
+     max-height: 100%
      overflow: hidden
