@@ -41,12 +41,12 @@ class StandsList extends Component {
   render() {
     if (this.props.items.length === 0) {
       return(
-        <div>Loading...</div>
+        <div className="stands-list">Loading...</div>
       );
     }
 
     return (
-      <div className='container__inner'>
+      <div className='stands-list container__inner'>
         {this.renderStands()}
       </div>
     )
