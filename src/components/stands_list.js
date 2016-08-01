@@ -20,7 +20,7 @@ class StandsList extends Component {
   render() {
     if (this.props.items.length === 0) {
       return(
-        <div className="stands-list">Loading...</div>
+        <div className="stands-list"></div>
       );
     }
 
