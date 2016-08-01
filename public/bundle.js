@@ -24404,6 +24404,11 @@
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
+	                'Все'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'all' },
 	                'Тип'
 	              ),
 	              this.props.type.map(function (y, i) {
@@ -24426,6 +24431,11 @@
 	                onChange: function onChange(e) {
 	                  return _this2.props.filterMusicByMark(e.target.value);
 	                } },
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'all' },
+	                'Все'
+	              ),
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
@@ -24454,6 +24464,11 @@
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
+	                'Все'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'all' },
 	                'Вид'
 	              ),
 	              this.props.view.map(function (y, i) {
@@ -24476,6 +24491,11 @@
 	                onChange: function onChange(e) {
 	                  return _this2.props.filterMusicByCountry(e.target.value);
 	                } },
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'all' },
+	                'Все'
+	              ),
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
@@ -24504,6 +24524,11 @@
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
+	                'Все'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'all' },
 	                'Форма'
 	              ),
 	              this.props.shape.map(function (y, i) {
@@ -24529,6 +24554,11 @@
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
+	                'Все'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'all' },
 	                'Оборот'
 	              ),
 	              this.props.turn.map(function (y, i) {
@@ -24548,6 +24578,12 @@
 	  return StandsFilters;
 	}(_react.Component);
 	
+	function sortStands(type, mark, view, country, shape, turn, stands) {
+	  return stands.filter(function (stand) {
+	    return (type == 'all' || type == stand.type) && (mark == 'all' || mark == stand.mark) && (view == 'all' || view == stand.view) && (country == 'all' || country == stand.country) && (shape == 'all' || shape == stand.shape) && (turn == 'all' || turn == stand.turn);
+	  });
+	};
+	
 	function getFilters(key, stands) {
 	  return stands.reduce(function (acc, item) {
 	    if (!acc.includes(item[key])) {
@@ -24558,7 +24594,7 @@
 	}
 	
 	function mapStateToProps(state) {
-	  if (!state.stands.items) {
+	  if (state.stands.items.length === 0) {
 	    return { loaded: false };
 	  }
 	
@@ -24571,6 +24607,14 @@
 	  var turn = _state$stands.turn;
 	  var items = _state$stands.items;
 	
+	
+	  var filteredStandsForType = sortStands('all', mark, view, country, shape, turn, items);
+	  var filteredStandsForMark = sortStands(type, 'all', view, country, shape, turn, items);
+	  var filteredStandsForView = sortStands(type, mark, 'all', country, shape, turn, items);
+	  var filteredStandsForCountry = sortStands(type, mark, view, 'all', shape, turn, items);
+	  var filteredStandsForShape = sortStands(type, mark, view, country, 'all', turn, items);
+	  var filteredStandsForTurn = sortStands(type, mark, view, country, shape, 'all', items);
+	
 	  return {
 	    loaded: true,
 	    selectedType: type,
@@ -24579,12 +24623,12 @@
 	    selectedCountry: country,
 	    selectedShape: shape,
 	    selectedTurn: turn,
-	    type: getFilters('type', items),
-	    mark: getFilters('mark', items),
-	    view: getFilters('view', items),
-	    country: getFilters('country', items),
-	    shape: getFilters('shape', items),
-	    turn: getFilters('turn', items)
+	    type: getFilters('type', filteredStandsForType),
+	    mark: getFilters('mark', filteredStandsForMark),
+	    view: getFilters('view', filteredStandsForView),
+	    country: getFilters('country', filteredStandsForCountry),
+	    shape: getFilters('shape', filteredStandsForShape),
+	    turn: getFilters('turn', filteredStandsForTurn)
 	  };
 	}
 	
