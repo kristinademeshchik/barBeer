@@ -1,5 +1,5 @@
 /node_modules
-bundle.js
+/public/src
 npm-debug.log
 .DS_Store
 
