@@ -32,11 +32,16 @@ class StandsList extends Component {
   }
 };
 
-function sortStands(type, stands) {
+function sortStands(type, mark, view, country, shape, turn, stands) {
   return stands
     .filter(stand => {
       return (
-        (type == 'all' || type == stand.type)
+        (type == 'all' || type == stand.type) &&
+        (mark == 'all' || mark == stand.mark) &&
+        (view == 'all' || view == stand.view) &&
+        (country == 'all' || country == stand.country) &&
+        (shape == 'all' || shape == stand.shape) &&
+        (turn == 'all' || turn == stand.turn)
       );
     });
 };
@@ -47,9 +52,9 @@ function MapStateToProps(state) {
     return {stands: []};
   }
 
-  const { type, items } = state.stands;
+  const { type, mark, view, country, shape, turn, items } = state.stands;
   return {
-    stands: sortStands(type, items)
+    stands: sortStands(type, mark, view, country, shape, turn, items)
   };
 }
 

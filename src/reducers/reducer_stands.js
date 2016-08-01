@@ -1,4 +1,12 @@
-import { FETCH_STANDS, FILTER_MUSIC_BY_TYPE } from '../actions/index';
+import {
+  FETCH_STANDS,
+  FILTER_MUSIC_BY_TYPE,
+  FILTER_MUSIC_BY_MARK,
+  FILTER_MUSIC_BY_VIEW,
+  FILTER_MUSIC_BY_COUNTRY,
+  FILTER_MUSIC_BY_SHAPE,
+  FILTER_MUSIC_BY_TURN
+} from '../actions/index';
 
 const INITIAL_STATE = {
   items: []
@@ -12,13 +20,48 @@ export default function(state = INITIAL_STATE, action) {
       return {
         ...state,
         items: action.payload.data,
-        type: 'all'
+        type: 'all',
+        mark: 'all',
+        view: 'all',
+        country: 'all',
+        shape: 'all',
+        turn: 'all'
       };
 
     case FILTER_MUSIC_BY_TYPE:
       return {
         ...state,
         type: action.payload
+      };
+
+    case FILTER_MUSIC_BY_MARK:
+      return {
+        ...state,
+        mark: action.payload
+      };
+
+    case FILTER_MUSIC_BY_VIEW:
+      return {
+        ...state,
+        view: action.payload
+      };
+
+    case FILTER_MUSIC_BY_COUNTRY:
+      return {
+        ...state,
+        country: action.payload
+      };
+
+    case FILTER_MUSIC_BY_SHAPE:
+      return {
+        ...state,
+        shape: action.payload
+      };
+
+    case FILTER_MUSIC_BY_TURN:
+      return {
+        ...state,
+        turn: action.payload
       };
 
     default:
