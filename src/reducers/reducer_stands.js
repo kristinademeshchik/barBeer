@@ -1,5 +1,6 @@
 import {
   FETCH_STANDS,
+  RESET_FILTERS,
   FILTER_MUSIC_BY_TYPE,
   FILTER_MUSIC_BY_MARK,
   FILTER_MUSIC_BY_VIEW,
@@ -20,6 +21,17 @@ export default function(state = INITIAL_STATE, action) {
       return {
         ...state,
         items: action.payload.data,
+        type: 'all',
+        mark: 'all',
+        view: 'all',
+        country: 'all',
+        shape: 'all',
+        turn: 'all'
+      };
+
+    case RESET_FILTERS:
+      return {
+        ...state,
         type: 'all',
         mark: 'all',
         view: 'all',

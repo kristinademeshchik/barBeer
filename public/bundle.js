@@ -21560,7 +21560,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  margin: 0;\n  padding: 0;\n  background: #eee;\n  font-size: 13px;\n  font-family: Arial;\n}\n.container__inner {\n  overflow: hidden;\n}\n.container .box {\n  float: left;\n  position: relative;\n  width: 20%;\n}\n@media only screen and (max-width: 480px) {\n  .container .box {\n    width: 100%;\n    padding-bottom: 100%;\n  }\n}\n@media only screen and (max-width: 650px) and (min-width: 481px) {\n  .container .box {\n    width: 50%;\n    padding-bottom: 50%;\n  }\n}\n@media only screen and (max-width: 1050px) and (min-width: 651px) {\n  .container .box {\n    width: 33.3%;\n    padding-bottom: 33.3%;\n  }\n}\n@media only screen and (max-width: 1290px) and (min-width: 1051px) {\n  .container .box {\n    width: 25%;\n    padding-bottom: 25%;\n  }\n}\n.container .box__image {\n  display: block;\n  max-height: 100%;\n  max-width: 100%;\n  width: 100%;\n  height: 100%;\n}\n.container__inner {\n  max-height: 100%;\n  overflow: hidden;\n}\n.header {\n  position: fixed;\n  left: 0;\n  right: 0;\n  top: 0;\n  z-index: 1;\n}\n.header__logo-container {\n  background: none;\n  float: left;\n  width: 320px;\n  position: relative;\n}\n.header__info {\n  position: absolute;\n  left: 23px;\n  top: 33px;\n}\n.header__filter {\n  background: #fff;\n  padding: 18px 0;\n  float: left;\n  width: calc(100% - 320px);\n}\n.form-group {\n  padding: 0 10px;\n  float: left;\n  width: 12%;\n}\n.form-group__select {\n  max-width: 100%;\n  width: 100%;\n  height: 2rem;\n  display: block;\n  padding: 0.5rem 0.85rem;\n  font-size: 14px;\n  line-height: 1.25;\n  color: #55595c;\n  background-color: #fff;\n  background-image: none;\n  background-clip: padding-box;\n  border: 1px solid rgba(0,0,0,0.15);\n  border-radius: 0.25rem;\n}\n", ""]);
+	exports.push([module.id, "body {\n  margin: 0;\n  padding: 0;\n  background: #eee;\n  color: #808080;\n  font-size: 14px;\n  font-family: Arial;\n}\n.container__inner {\n  overflow: hidden;\n}\n.container .box {\n  float: left;\n  position: relative;\n  width: 20%;\n}\n@media only screen and (max-width: 480px) {\n  .container .box {\n    width: 100%;\n    padding-bottom: 100%;\n  }\n}\n@media only screen and (max-width: 650px) and (min-width: 481px) {\n  .container .box {\n    width: 50%;\n    padding-bottom: 50%;\n  }\n}\n@media only screen and (max-width: 1050px) and (min-width: 651px) {\n  .container .box {\n    width: 33.3%;\n    padding-bottom: 33.3%;\n  }\n}\n@media only screen and (max-width: 1290px) and (min-width: 1051px) {\n  .container .box {\n    width: 25%;\n    padding-bottom: 25%;\n  }\n}\n.container .box__image {\n  display: block;\n  max-height: 100%;\n  max-width: 100%;\n  width: 100%;\n  height: 100%;\n}\n.container__inner {\n  max-height: 100%;\n  overflow: hidden;\n}\n.header {\n  position: fixed;\n  left: 0;\n  right: 0;\n  top: 0;\n  z-index: 1;\n}\n.header__logo-container {\n  background: none;\n  float: left;\n  width: 320px;\n  position: relative;\n}\n.header__info {\n  position: absolute;\n  left: 23px;\n  top: 33px;\n}\n.header__filter {\n  background: #fff;\n  padding: 18px 0;\n  float: left;\n  width: calc(100% - 320px);\n}\n.form-group {\n  padding: 0 10px;\n  float: left;\n  width: 11%;\n}\n.form-group_reset {\n  width: 15%;\n}\n.form-group__reset {\n  font-size: 1rem;\n  cursor: pointer;\n  line-height: 32px;\n  border-bottom: 1px #808080 dashed;\n}\n.form-group__select {\n  max-width: 100%;\n  width: 100%;\n  height: 2rem;\n  display: block;\n  padding: 0.5rem 0.85rem;\n  font-size: 1rem;\n  line-height: 1.25;\n  color: #55595c;\n  background-color: #fff;\n  background-image: none;\n  background-clip: padding-box;\n  border: 1px solid rgba(0,0,0,0.15);\n  border-radius: 0.25rem;\n}\n", ""]);
 	
 	// exports
 
@@ -21985,8 +21985,9 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.FILTER_MUSIC_BY_TURN = exports.FILTER_MUSIC_BY_SHAPE = exports.FILTER_MUSIC_BY_COUNTRY = exports.FILTER_MUSIC_BY_VIEW = exports.FILTER_MUSIC_BY_MARK = exports.FILTER_MUSIC_BY_TYPE = exports.FETCH_STANDS = undefined;
+	exports.FILTER_MUSIC_BY_TURN = exports.FILTER_MUSIC_BY_SHAPE = exports.FILTER_MUSIC_BY_COUNTRY = exports.FILTER_MUSIC_BY_VIEW = exports.FILTER_MUSIC_BY_MARK = exports.FILTER_MUSIC_BY_TYPE = exports.RESET_FILTERS = exports.FETCH_STANDS = undefined;
 	exports.fetchStands = fetchStands;
+	exports.resetFilters = resetFilters;
 	exports.filterMusicByType = filterMusicByType;
 	exports.filterMusicByMark = filterMusicByMark;
 	exports.filterMusicByView = filterMusicByView;
@@ -22001,6 +22002,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var FETCH_STANDS = exports.FETCH_STANDS = 'FETCH_STANDS';
+	var RESET_FILTERS = exports.RESET_FILTERS = 'RESET_FILTERS';
 	var FILTER_MUSIC_BY_TYPE = exports.FILTER_MUSIC_BY_TYPE = 'FILTER_MUSIC_BY_TYPE';
 	var FILTER_MUSIC_BY_MARK = exports.FILTER_MUSIC_BY_MARK = 'FILTER_MUSIC_BY_MARK';
 	var FILTER_MUSIC_BY_VIEW = exports.FILTER_MUSIC_BY_VIEW = 'FILTER_MUSIC_BY_VIEW';
@@ -22015,6 +22017,12 @@
 	  return {
 	    type: FETCH_STANDS,
 	    payload: request
+	  };
+	}
+	
+	function resetFilters() {
+	  return {
+	    type: RESET_FILTERS
 	  };
 	}
 	
@@ -24397,19 +24405,14 @@
 	              'select',
 	              {
 	                className: 'form-group__select',
-	                defaultValue: this.props.selectedType,
+	                value: this.props.selectedType,
 	                onChange: function onChange(e) {
 	                  return _this2.props.filterMusicByType(e.target.value);
 	                } },
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
-	                'Все'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                { value: 'all' },
-	                'Тип'
+	                'тип'
 	              ),
 	              this.props.type.map(function (y, i) {
 	                return _react2.default.createElement(
@@ -24427,19 +24430,14 @@
 	              'select',
 	              {
 	                className: 'form-group__select',
-	                defaultValue: this.props.selectedMark,
+	                value: this.props.selectedMark,
 	                onChange: function onChange(e) {
 	                  return _this2.props.filterMusicByMark(e.target.value);
 	                } },
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
-	                'Все'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                { value: 'all' },
-	                'Марка'
+	                'марка'
 	              ),
 	              this.props.mark.map(function (y, i) {
 	                return _react2.default.createElement(
@@ -24457,19 +24455,14 @@
 	              'select',
 	              {
 	                className: 'form-group__select',
-	                defaultValue: this.props.selectedView,
+	                value: this.props.selectedView,
 	                onChange: function onChange(e) {
 	                  return _this2.props.filterMusicByView(e.target.value);
 	                } },
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
-	                'Все'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                { value: 'all' },
-	                'Вид'
+	                'вид'
 	              ),
 	              this.props.view.map(function (y, i) {
 	                return _react2.default.createElement(
@@ -24487,19 +24480,14 @@
 	              'select',
 	              {
 	                className: 'form-group__select',
-	                defaultValue: this.props.selectedCountry,
+	                value: this.props.selectedCountry,
 	                onChange: function onChange(e) {
 	                  return _this2.props.filterMusicByCountry(e.target.value);
 	                } },
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
-	                'Все'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                { value: 'all' },
-	                'Страна'
+	                'страна'
 	              ),
 	              this.props.country.map(function (y, i) {
 	                return _react2.default.createElement(
@@ -24517,19 +24505,14 @@
 	              'select',
 	              {
 	                className: 'form-group__select',
-	                defaultValue: this.props.selectedShape,
+	                value: this.props.selectedShape,
 	                onChange: function onChange(e) {
 	                  return _this2.props.filterMusicByShape(e.target.value);
 	                } },
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
-	                'Все'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                { value: 'all' },
-	                'Форма'
+	                'форма'
 	              ),
 	              this.props.shape.map(function (y, i) {
 	                return _react2.default.createElement(
@@ -24547,19 +24530,14 @@
 	              'select',
 	              {
 	                className: 'form-group__select',
-	                defaultValue: this.props.selectedTurn,
+	                value: this.props.selectedTurn,
 	                onChange: function onChange(e) {
 	                  return _this2.props.filterMusicByTurn(e.target.value);
 	                } },
 	              _react2.default.createElement(
 	                'option',
 	                { value: 'all' },
-	                'Все'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                { value: 'all' },
-	                'Оборот'
+	                'оборот'
 	              ),
 	              this.props.turn.map(function (y, i) {
 	                return _react2.default.createElement(
@@ -24568,6 +24546,17 @@
 	                  y
 	                );
 	              })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'form-group form-group_reset' },
+	            _react2.default.createElement(
+	              'span',
+	              { className: 'form-group__reset', onClick: function onClick() {
+	                  return _this2.props.resetFilters();
+	                } },
+	              'сбросить фильтр'
 	            )
 	          )
 	        );
@@ -24614,7 +24603,6 @@
 	  var filteredStandsForCountry = sortStands(type, mark, view, 'all', shape, turn, items);
 	  var filteredStandsForShape = sortStands(type, mark, view, country, 'all', turn, items);
 	  var filteredStandsForTurn = sortStands(type, mark, view, country, shape, 'all', items);
-	
 	  return {
 	    loaded: true,
 	    selectedType: type,
@@ -24633,6 +24621,7 @@
 	}
 	
 	exports.default = (0, _reactRedux.connect)(mapStateToProps, {
+	  resetFilters: _index.resetFilters,
 	  filterMusicByType: _index.filterMusicByType,
 	  filterMusicByMark: _index.filterMusicByMark,
 	  filterMusicByView: _index.filterMusicByView,
@@ -24693,6 +24682,16 @@
 	    case _index.FETCH_STANDS:
 	      return _extends({}, state, {
 	        items: action.payload.data,
+	        type: 'all',
+	        mark: 'all',
+	        view: 'all',
+	        country: 'all',
+	        shape: 'all',
+	        turn: 'all'
+	      });
+	
+	    case _index.RESET_FILTERS:
+	      return _extends({}, state, {
 	        type: 'all',
 	        mark: 'all',
 	        view: 'all',

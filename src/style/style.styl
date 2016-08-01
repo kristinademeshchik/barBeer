@@ -2,7 +2,8 @@ body
  margin: 0
  padding: 0
  background: #EEE
- font-size: 13px
+ color: #808080
+ font-size: 14px
  font-family: Arial;
 
 .container
@@ -70,7 +71,16 @@ body
 .form-group
   padding: 0 10px
   float: left
-  width: 12%
+  width: 11%
+
+  &_reset
+    width: 15%
+
+  &__reset
+    font-size: 1rem
+    cursor: pointer
+    line-height: 32px
+    border-bottom: 1px #808080 dashed
 
   &__select
     max-width: 100%
@@ -78,7 +88,7 @@ body
     height: 2rem
     display: block
     padding: 0.5rem 0.85rem
-    font-size: 14px
+    font-size: 1rem
     line-height: 1.25
     color: #55595c
     background-color: #fff

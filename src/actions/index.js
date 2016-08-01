@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 export const FETCH_STANDS = 'FETCH_STANDS';
+export const RESET_FILTERS = 'RESET_FILTERS';
 export const FILTER_MUSIC_BY_TYPE = 'FILTER_MUSIC_BY_TYPE';
 export const FILTER_MUSIC_BY_MARK = 'FILTER_MUSIC_BY_MARK';
 export const FILTER_MUSIC_BY_VIEW = 'FILTER_MUSIC_BY_VIEW';
@@ -16,6 +17,12 @@ export function fetchStands() {
     type: FETCH_STANDS,
     payload: request
   };
+}
+
+export function resetFilters() {
+  return {
+    type: RESET_FILTERS
+  }
 }
 
 export function filterMusicByType(param) {

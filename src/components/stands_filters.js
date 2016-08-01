@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import {
+  resetFilters,
   filterMusicByType,
   filterMusicByMark,
   filterMusicByView,
@@ -24,10 +25,9 @@ class StandsFilters extends Component {
           <div className="form-group">
             <select
               className="form-group__select"
-              defaultValue={this.props.selectedType}
+              value={this.props.selectedType}
               onChange={e => this.props.filterMusicByType(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Тип</option>
+              <option value="all">тип</option>
               {this.props.type.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -37,10 +37,9 @@ class StandsFilters extends Component {
           <div className="form-group">
             <select
               className="form-group__select"
-              defaultValue={this.props.selectedMark}
+              value={this.props.selectedMark}
               onChange={e => this.props.filterMusicByMark(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Марка</option>
+              <option value="all">марка</option>
               {this.props.mark.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -50,10 +49,9 @@ class StandsFilters extends Component {
           <div className="form-group">
             <select
               className="form-group__select"
-              defaultValue={this.props.selectedView}
+              value={this.props.selectedView}
               onChange={e => this.props.filterMusicByView(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Вид</option>
+              <option value="all">вид</option>
               {this.props.view.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -63,10 +61,9 @@ class StandsFilters extends Component {
           <div className="form-group">
             <select
               className="form-group__select"
-              defaultValue={this.props.selectedCountry}
+              value={this.props.selectedCountry}
               onChange={e => this.props.filterMusicByCountry(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Страна</option>
+              <option value="all">страна</option>
               {this.props.country.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -76,10 +73,9 @@ class StandsFilters extends Component {
           <div className="form-group">
             <select
               className="form-group__select"
-              defaultValue={this.props.selectedShape}
+              value={this.props.selectedShape}
               onChange={e => this.props.filterMusicByShape(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Форма</option>
+              <option value="all">форма</option>
               {this.props.shape.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -89,14 +85,17 @@ class StandsFilters extends Component {
           <div className="form-group">
             <select
               className="form-group__select"
-              defaultValue={this.props.selectedTurn}
+              value={this.props.selectedTurn}
               onChange={e => this.props.filterMusicByTurn(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Оборот</option>
+              <option value="all">оборот</option>
               {this.props.turn.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
             </select>
+          </div>
+
+          <div className="form-group form-group_reset">
+            <span className="form-group__reset" onClick={() => this.props.resetFilters()}>сбросить фильтр</span>
           </div>
         </div>
       );
@@ -141,7 +140,6 @@ function mapStateToProps(state) {
   const filteredStandsForCountry = sortStands(type, mark, view, 'all', shape, turn, items);
   const filteredStandsForShape = sortStands(type, mark, view, country, 'all', turn, items);
   const filteredStandsForTurn = sortStands(type, mark, view, country, shape, 'all', items);
-
   return {
     loaded: true,
     selectedType: type,
@@ -160,6 +158,7 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps, {
+  resetFilters,
   filterMusicByType,
   filterMusicByMark,
   filterMusicByView,
