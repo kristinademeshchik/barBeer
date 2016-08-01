@@ -7,16 +7,6 @@ class StandsList extends Component {
     this.props.fetchStands();
   }
 
-  componentDidUpdate() {
-    let items = document.getElementsByClassName('box'),
-      list = document.getElementsByClassName('container__inner')[0];
-
-    this.setHeights(items, list);
-    window.addEventListener('resize', function() {
-      this.setHeights(items, list);
-    }.bind(this));
-  }
-
   setHeights(items, list) {
     let maxHeight = 250,
       perCell = Math.floor(list.clientHeight / maxHeight);
