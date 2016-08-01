@@ -1,8 +1,7 @@
-import { FETCH_STANDS } from '../actions/index';
+import { FETCH_STANDS, FILTER_MUSIC_BY_TYPE } from '../actions/index';
 
 const INITIAL_STATE = {
-  items: [],
-  filters: null
+  items: []
 };
 
 export default function(state = INITIAL_STATE, action) {
@@ -12,7 +11,14 @@ export default function(state = INITIAL_STATE, action) {
     case FETCH_STANDS:
       return {
         ...state,
-        items: action.payload.data
+        items: action.payload.data,
+        type: 'all'
+      };
+
+    case FILTER_MUSIC_BY_TYPE:
+      return {
+        ...state,
+        type: action.payload
       };
 
     default:

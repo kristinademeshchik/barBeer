@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 export const FETCH_STANDS = 'FETCH_STANDS';
+export const FILTER_MUSIC_BY_TYPE = 'FILTER_MUSIC_BY_TYPE';
 
 export function fetchStands() {
   const url = '/data';
@@ -9,5 +10,12 @@ export function fetchStands() {
   return {
     type: FETCH_STANDS,
     payload: request
+  };
+}
+
+export function filterMusicByType(param) {
+  return {
+    type: FILTER_MUSIC_BY_TYPE,
+    payload: param
   };
 }

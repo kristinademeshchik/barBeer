@@ -8,17 +8,17 @@ class StandsList extends Component {
   }
 
   renderStands() {
-    return this.props.items.map((item) => {
+    return this.props.stands.map((stand) => {
       return (
-        <div className="box" key={item.id}>
-          <img className="box__image" src={require(`../images/stands/${item.id}.jpg`)} />
+        <div className="box" key={stand.id}>
+          <img className="box__image" src={require(`../images/stands/${stand.id}.jpg`)} />
         </div>
       );
     })
   };
 
   render() {
-    if (this.props.items.length === 0) {
+    if (this.props.stands.length === 0) {
       return(
         <div className="stands-list"></div>
       );
@@ -30,11 +30,26 @@ class StandsList extends Component {
       </div>
     )
   }
-}
+};
+
+function sortStands(type, stands) {
+  return stands
+    .filter(stand => {
+      return (
+        (type == 'all' || type == stand.type)
+      );
+    });
+};
 
 function MapStateToProps(state) {
+
+  if (!state.stands.items) {
+    return {stands: []};
+  }
+
+  const { type, items } = state.stands;
   return {
-    items: state.stands.items
+    stands: sortStands(type, items)
   };
 }
 

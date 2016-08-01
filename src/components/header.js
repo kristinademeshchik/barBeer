@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import Filter from './filter';
+import StandsFilters from './stands_filters';
 
 class Header extends Component {
   render() {
@@ -12,7 +12,7 @@ class Header extends Component {
           <p className="header__info">Частная коллекция бирдекелей | {this.props.stands.items.length}</p>
         </div>
         <div className="header__filter">
-          <Filter />
+          <StandsFilters />
         </div>
       </header>
     );
