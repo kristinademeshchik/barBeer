@@ -1018,15 +1018,5 @@
     "shape": "Круг",
     "turn": "Да",
     "imgSrc": "img.jpg"
-  },
-  {
-    "id": 104,
-    "type": "Пиво",
-    "mark": "Adriaen Brouwer Dark Gold",
-    "view": "Belgian Strong Dark Ale",
-    "country": "Бельгия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
   }
 ]

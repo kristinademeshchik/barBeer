@@ -7,22 +7,11 @@ class StandsList extends Component {
     this.props.fetchStands();
   }
 
-  setHeights(items, list) {
-    let maxHeight = 250,
-      perCell = Math.floor(list.clientHeight / maxHeight);
-
-    let itemSize = window.innerHeight / (perCell + 1);
-    for (let i = 0; i < items.length; i++) {
-      items[i].style.height = `${itemSize}px`;
-      items[i].style.width = `${itemSize}px`;
-    }
-  }
-
   renderStands() {
     return this.props.items.map((item) => {
       return (
         <div className="box" key={item.id}>
-          <img className="box__image" src={require(`../images/${item.imgSrc}`)} />
+          <img className="box__image" src={require(`../images/stands/${item.id}.jpg`)} />
         </div>
       );
     })
