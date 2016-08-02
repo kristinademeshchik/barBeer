@@ -17,17 +17,26 @@ body
     position: relative
     width: 20%
 
-    @media only screen and (max-width : 480px)
-      width: 100%
+    @media only screen and (max-width : 650px) and (min-width : 481px)
+      width: 50%
 
-     @media only screen and (max-width : 650px) and (min-width : 481px)
-       width: 50%
+    @media only screen and (max-width : 876px) and (min-width : 651px)
+      width: 33.3%
 
-     @media only screen and (max-width : 1050px) and (min-width : 651px)
-       width: 33.3%
+    @media only screen and (max-width : 1050px) and (min-width : 1051px)
+      width: 25%
 
-     @media only screen and (max-width : 1290px) and (min-width : 1051px)
-       width: 25%
+    @media only screen and (min-width : 1266px)
+      width: 16.666666%
+
+    @media only screen and (min-width : 1500px)
+      width: 14.2857%
+
+    @media only screen and (min-width : 1700px)
+      width: 12.5%
+
+    @media only screen and (min-width : 1985px)
+      width: 11.111111%
 
     &__image
       display: block
@@ -93,7 +102,7 @@ body
     width: 100%
     height: 2rem
     display: block
-    padding: 0.5rem 0.85rem
+    padding: 0.2rem 0.5rem
     font-size: 1rem
     line-height: 1.25
     color: #55595c
