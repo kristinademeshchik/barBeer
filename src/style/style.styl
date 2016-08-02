@@ -48,10 +48,14 @@ body
   top: 0
   z-index: 1
 
+  &__logo
+    display: block
+
   &__logo-container
     background: none
     float: left
-    width: 320px
+    width: 298px
+    overflow: hidden
     position: relative
 
   &__info
@@ -61,16 +65,21 @@ body
 
   &__filter
     background: #fff
-    padding: 18px 0
+    padding: 18px 5px
+    text-align: right
+    box-sizing: border-box
     float: left
-    width: calc(100% - 320px)
+    width: calc(100% - 298px)
+    height: 68px
+    overflow: hidden
 
 .form-group
   padding: 0 10px
-  float: left
+  display: inline-block
   width: 11%
 
   &_reset
+    text-align: left
     width: 15%
 
   &__reset
