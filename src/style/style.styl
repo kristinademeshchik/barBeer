@@ -7,6 +7,7 @@ body
  font-family: Arial;
 
 .container
+  min-width: 1170px
 
   &__inner
     overflow: hidden
@@ -18,19 +19,15 @@ body
 
     @media only screen and (max-width : 480px)
       width: 100%
-      padding-bottom: 100%
 
      @media only screen and (max-width : 650px) and (min-width : 481px)
        width: 50%
-       padding-bottom: 50%
 
      @media only screen and (max-width : 1050px) and (min-width : 651px)
        width: 33.3%
-       padding-bottom: 33.3%
 
      @media only screen and (max-width : 1290px) and (min-width : 1051px)
        width: 25%
-       padding-bottom: 25%
 
     &__image
       display: block
