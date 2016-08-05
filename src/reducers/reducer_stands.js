@@ -6,7 +6,8 @@ import {
   FILTER_MUSIC_BY_VIEW,
   FILTER_MUSIC_BY_COUNTRY,
   FILTER_MUSIC_BY_SHAPE,
-  FILTER_MUSIC_BY_TURN
+  FILTER_MUSIC_BY_TURN,
+  VISIBILITY_MODAL
 } from '../actions/index';
 
 const INITIAL_STATE = {
@@ -26,7 +27,8 @@ export default function(state = INITIAL_STATE, action) {
         view: 'all',
         country: 'all',
         shape: 'all',
-        turn: 'all'
+        turn: 'all',
+        modalVisibility: 'none'
       };
 
     case RESET_FILTERS:
@@ -74,6 +76,12 @@ export default function(state = INITIAL_STATE, action) {
       return {
         ...state,
         turn: action.payload
+      };
+
+    case VISIBILITY_MODAL:
+      return {
+        ...state,
+        modalVisibility: action.payload
       };
 
     default:

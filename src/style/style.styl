@@ -7,7 +7,6 @@ body
  font-family: Arial;
 
 .container
-  min-width: 1170px
 
   &__inner
     overflow: hidden
@@ -15,16 +14,19 @@ body
   .box
     float: left
     position: relative
-    width: 20%
+    width: 100%
 
-    @media only screen and (max-width : 650px) and (min-width : 481px)
-      width: 50%
+    @media only screen and (min-width : 250px)
+      width: 50%;
 
-    @media only screen and (max-width : 876px) and (min-width : 651px)
-      width: 33.3%
+    @media only screen and (min-width : 500px)
+      width: 33.3333%;
 
-    @media only screen and (max-width : 1050px) and (min-width : 1051px)
-      width: 25%
+    @media only screen and (min-width : 750px)
+      width: 25%;
+
+    @media only screen and (min-width : 1000px)
+      width: 20%;
 
     @media only screen and (min-width : 1266px)
       width: 16.666666%
@@ -85,13 +87,18 @@ body
 .form-group
   padding: 0 10px
   display: inline-block
-  width: 11%
+  width: 10%
 
   &_reset
+  &_link
     text-align: left
-    width: 15%
+    width: 13%
 
-  &__reset
+  &_link
+    width: 10%
+
+  &__reset,
+  &__link
     font-size: 1rem
     cursor: pointer
     line-height: 32px
@@ -111,3 +118,19 @@ body
     background-clip: padding-box
     border: 1px solid rgba(0, 0, 0, 0.15)
     border-radius: 0.25rem
+
+.modal
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  max-width: 300px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: center;
+
+  &__link
+    white-space: nowrap

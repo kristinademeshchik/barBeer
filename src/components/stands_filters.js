@@ -8,7 +8,8 @@ import {
   filterMusicByView,
   filterMusicByCountry,
   filterMusicByShape,
-  filterMusicByTurn
+  filterMusicByTurn,
+  visibilityModal
 } from '../actions/index';
 
 class StandsFilters extends Component {
@@ -27,7 +28,8 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedType}
               onChange={e => this.props.filterMusicByType(e.target.value)}>
-              <option value="all">тип</option>
+              <option value="all">Все</option>
+              <option value="all">Тип</option>
               {this.props.type.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -39,7 +41,8 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedMark}
               onChange={e => this.props.filterMusicByMark(e.target.value)}>
-              <option value="all">марка</option>
+              <option value="all">Все</option>
+              <option value="all">Марка</option>
               {this.props.mark.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -51,7 +54,8 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedView}
               onChange={e => this.props.filterMusicByView(e.target.value)}>
-              <option value="all">вид</option>
+              <option value="all">Все</option>
+              <option value="all">Вид</option>
               {this.props.view.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -63,7 +67,8 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedCountry}
               onChange={e => this.props.filterMusicByCountry(e.target.value)}>
-              <option value="all">страна</option>
+              <option value="all">Все</option>
+              <option value="all">Страна</option>
               {this.props.country.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -75,7 +80,8 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedShape}
               onChange={e => this.props.filterMusicByShape(e.target.value)}>
-              <option value="all">форма</option>
+              <option value="all">Все</option>
+              <option value="all">Форма</option>
               {this.props.shape.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -87,7 +93,8 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedTurn}
               onChange={e => this.props.filterMusicByTurn(e.target.value)}>
-              <option value="all">оборот</option>
+              <option value="all">Все</option>
+              <option value="all">Оборот</option>
               {this.props.turn.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -96,6 +103,10 @@ class StandsFilters extends Component {
 
           <div className="form-group form-group_reset">
             <span className="form-group__reset" onClick={() => this.props.resetFilters()}>сбросить фильтр</span>
+          </div>
+
+          <div className="form-group form-group_link">
+            <span className="form-group__link" onClick={() => this.props.visibilityModal('block')}>О сайте</span>
           </div>
         </div>
       );

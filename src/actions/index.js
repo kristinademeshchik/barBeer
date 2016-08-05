@@ -8,6 +8,7 @@ export const FILTER_MUSIC_BY_VIEW = 'FILTER_MUSIC_BY_VIEW';
 export const FILTER_MUSIC_BY_COUNTRY = 'FILTER_MUSIC_BY_COUNTRY';
 export const FILTER_MUSIC_BY_SHAPE = 'FILTER_MUSIC_BY_SHAPE';
 export const FILTER_MUSIC_BY_TURN = 'FILTER_MUSIC_BY_TURN';
+export const VISIBILITY_MODAL = 'VISIBILITY_MODAL';
 
 export function fetchStands() {
   const url = '/data';
@@ -65,4 +66,11 @@ export function filterMusicByTurn(param) {
     type: FILTER_MUSIC_BY_TURN,
     payload: param
   };
-}
+};
+
+export function visibilityModal(param) {
+  return {
+    type: VISIBILITY_MODAL,
+    payload: param
+  }
+};
