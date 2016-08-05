@@ -11,10 +11,13 @@ class Modal extends Component {
 
     return(
       <div className="modal" style={style}>
-        <p>
-          Уважаемые посетители, если у вас есть желание поделиться со мной бирдекелями, то пишите:
-          <a className="modal__link" href="mailto:dima@ld-design.ru">dima@ld-design.ru</a>
-        </p>
+        <div className="modal__inner">
+          <i className="modal__close" onClick={() => this.props.visibilityModal('none')} >&#215;</i>
+          <p>
+            Уважаемые посетители, если у вас есть желание поделиться со мной бирдекелями, то пишите:
+             <a className="modal__link" href="mailto:dima@ld-design.ru">dima@ld-design.ru</a>
+          </p>
+        </div>
       </div>
     );
   }
@@ -28,4 +31,4 @@ function mapStateToProps(state) {
   return { modalVisibility:  state.stands.modalVisibility};
 }
 
-export default connect(mapStateToProps)(Modal);
+export default connect(mapStateToProps, { visibilityModal })(Modal);

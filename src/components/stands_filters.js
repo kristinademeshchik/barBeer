@@ -106,7 +106,7 @@ class StandsFilters extends Component {
           </div>
 
           <div className="form-group form-group_link">
-            <span className="form-group__link" onClick={() => this.props.visibilityModal('block')}>О сайте</span>
+            <span className="form-group__link" onClick={() => this.props.visibilityModal('block')}>о сайте</span>
           </div>
         </div>
       );
@@ -175,5 +175,6 @@ export default connect(mapStateToProps, {
   filterMusicByView,
   filterMusicByCountry,
   filterMusicByShape,
-  filterMusicByTurn
+  filterMusicByTurn,
+  visibilityModal
 })(StandsFilters);
