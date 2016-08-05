@@ -27,7 +27,6 @@ function mapStateToProps(state) {
   if (state.stands.items.length === 0) {
     return { modalVisibility: 'none' };
   }
-
   return { modalVisibility:  state.stands.modalVisibility};
 }
 
