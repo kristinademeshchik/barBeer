@@ -85,25 +85,53 @@ body
     height: 68px
     overflow: hidden
 
+  &__inner
+    @media(max-width: 1280px)
+      position: fixed
+      right: 0
+      top: 68px
+      bottom: 0
+      height: auto
+      background: #fff
+      width: 64px;
+      height: 100%
+      min-height: 520px
+      transition: width .2s cubic-bezier(.4,0,.2,1)
+      z-index: 99
+
 .form-group
   padding: 0 10px
   display: inline-block
   width: 10%
 
-  &_reset
-  &_link
+  @media(max-width: 1280px) {
+    width: 189px
+    float: none
+    margin-bottom: 15px
+  }
+
+  &_links
     text-align: left
-    width: 13%
+    width: 25%
 
-  &_link
-    width: 10%
+    @media(max-width: 1280px) {
+      width: 189px
+      margin-bottom: 5px
+    }
 
-  &__reset,
   &__link
     font-size: 1rem
     cursor: pointer
     line-height: 32px
     border-bottom: 1px #808080 dashed
+
+    &:last-child
+      margin-left: 20px
+
+      @media(max-width: 1280px) {
+        margin-left: 0
+        text-transform: uppercase
+      }
 
   &__select
     max-width: 100%
@@ -121,7 +149,7 @@ body
     border-radius: 0.25rem
 
 .modal
-  position: absolute
+  position: fixed
   left: 50%
   top: 50%
   transform: translate(-50%, -50%)
@@ -145,3 +173,49 @@ body
 
   &__link
     white-space: nowrap
+
+.toggle-switch
+  position: absolute
+  right: 21px
+  top: 21px
+  overflow: hidden
+  padding: 0
+  width: 33px
+  height: 22px
+  font-size: 0
+  text-indent: -9999px
+  border: none
+  background: 0 0
+  cursor: pointer
+  display: none
+
+  @media(max-width: 1280px) {
+    display: block
+  }
+
+  &__inner
+    position: relative
+    width: 33px
+    height: 22px
+    display: block
+
+  &__line
+    display: block
+    height: 2px
+    background: #576377
+    opacity: 1
+
+    &::before,
+    &::after
+      content: ''
+      position: absolute
+      display: block
+      left: 0
+      width: 100%
+      height: 2px
+      background-color: #576377
+      bottom: 0
+
+    &::before
+      bottom: auto
+      top: 10px

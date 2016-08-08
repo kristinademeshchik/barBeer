@@ -101,11 +101,11 @@ class StandsFilters extends Component {
             </select>
           </div>
 
-          <div className="form-group form-group_reset">
-            <span className="form-group__reset" onClick={() => this.props.resetFilters()}>сбросить фильтр</span>
+          <div className="form-group form-group_links">
+            <span className="form-group__link" onClick={() => this.props.resetFilters()}>сбросить фильтр</span>
           </div>
 
-          <div className="form-group form-group_link">
+          <div className="form-group form-group_links">
             <span className="form-group__link" onClick={() => this.props.visibilityModal('block')}>о сайте</span>
           </div>
         </div>
