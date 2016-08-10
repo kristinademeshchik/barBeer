@@ -5,8 +5,8 @@ import StandsFilters from './stands_filters';
 
 class Header extends Component {
   toggleMenuHandler() {
-
-  }
+    document.body.classList.toggle('menu-opened');
+  };
 
   render() {
     return(
@@ -16,7 +16,7 @@ class Header extends Component {
           <p className="header__info">Частная коллекция бирдекелей | {this.props.stands.items.length}</p>
         </div>
         <div className="header__filter">
-          <span className="toggle-switch" onClick={toggleMenuHandler}>
+          <span className="toggle-switch" onClick={() => this.toggleMenuHandler()}>
             <span className="toggle-switch__inner">
               <span className="toggle-switch__line">toggle menu</span>
             </span>
