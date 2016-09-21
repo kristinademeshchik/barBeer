@@ -9,9 +9,16 @@ class StandsList extends Component {
 
   renderStands() {
     return this.props.stands.map((stand) => {
+      let backImg;
+
+      if (stand.backImg) {
+        backImg = <img className="box__image box__image_back" src={require(`../images/stands/${stand.id}_2.png`)} />;
+      }
+
       return (
-        <div className="box" key={stand.id}>
-          <img className="box__image" src={require(`../images/stands/${stand.id}.jpg`)} />
+        <div className={ backImg ? "box box_flip" : "box" } key={stand.id} >
+          <img className="box__image box__image_front" src={require(`../images/stands/${stand.id}_1.png`)} />
+          {backImg}
         </div>
       );
     })

@@ -71,11 +71,11 @@
 	
 	__webpack_require__(194);
 	
-	var _app = __webpack_require__(198);
+	var _app = __webpack_require__(199);
 	
 	var _app2 = _interopRequireDefault(_app);
 	
-	var _reducers = __webpack_require__(227);
+	var _reducers = __webpack_require__(229);
 	
 	var _reducers2 = _interopRequireDefault(_reducers);
 	
@@ -22843,7 +22843,7 @@
 	var content = __webpack_require__(195);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(197)(content, {});
+	var update = __webpack_require__(198)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -22868,7 +22868,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  margin: 0;\n  padding: 0;\n  background: #eee;\n  color: #808080;\n  font-size: 14px;\n  font-family: Arial;\n  background: url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../images/bg.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ") center top/cover no-repeat fixed;\n}\n.container__inner {\n  overflow: hidden;\n}\n.container .box {\n  float: left;\n  position: relative;\n  width: 100%;\n}\n@media only screen and (min-width: 250px) {\n  .container .box {\n    width: 50%;\n  }\n}\n@media only screen and (min-width: 500px) {\n  .container .box {\n    width: 33.3333%;\n  }\n}\n@media only screen and (min-width: 750px) {\n  .container .box {\n    width: 25%;\n  }\n}\n@media only screen and (min-width: 1000px) {\n  .container .box {\n    width: 20%;\n  }\n}\n@media only screen and (min-width: 1266px) {\n  .container .box {\n    width: 16.666666%;\n  }\n}\n@media only screen and (min-width: 1500px) {\n  .container .box {\n    width: 14.2857%;\n  }\n}\n@media only screen and (min-width: 1700px) {\n  .container .box {\n    width: 12.5%;\n  }\n}\n@media only screen and (min-width: 1985px) {\n  .container .box {\n    width: 11.111111%;\n  }\n}\n.container .box__image {\n  display: block;\n  max-height: 100%;\n  max-width: 100%;\n  width: 100%;\n  height: 100%;\n}\n.container__inner {\n  max-height: 100%;\n  overflow: hidden;\n}\n.header {\n  position: fixed;\n  left: 0;\n  right: 0;\n  top: 0;\n  z-index: 1;\n}\n.header__logo {\n  display: block;\n}\n.header__logo-container {\n  background: none;\n  float: left;\n  width: 298px;\n  overflow: hidden;\n  position: relative;\n}\n.header__info {\n  position: absolute;\n  left: 23px;\n  top: 33px;\n}\n.header__filter {\n  background: #fff;\n  padding: 18px 5px;\n  text-align: right;\n  box-sizing: border-box;\n  float: left;\n  width: calc(100% - 298px);\n  height: 68px;\n  overflow: hidden;\n}\n@media (max-width: 1280px) {\n  .header__inner {\n    position: fixed;\n    right: 0;\n    top: 68px;\n    bottom: 0;\n    height: auto;\n    background: #fff;\n    width: 0;\n    height: 100%;\n    min-height: 520px;\n    -webkit-transition: width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n    transition: width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n    z-index: 99;\n    text-align: center;\n    padding-top: 15px;\n  }\n  .menu-opened .header__inner {\n    width: 250px;\n  }\n}\n.form-group {\n  padding: 0 10px;\n  display: inline-block;\n  width: 10%;\n}\n@media (max-width: 1280px) {\n  .form-group {\n    width: 189px;\n    float: none;\n    margin-bottom: 15px;\n  }\n}\n.form-group_links {\n  text-align: left;\n  width: auto;\n}\n@media (max-width: 1280px) {\n  .form-group_links {\n    width: 189px;\n    margin-bottom: 5px;\n  }\n}\n.form-group__link {\n  font-size: 1rem;\n  cursor: pointer;\n  line-height: 32px;\n  border-bottom: 1px #808080 dashed;\n}\n.form-group__link:last-child {\n  margin-left: 20px;\n}\n@media (max-width: 1280px) {\n  .form-group__link:last-child {\n    margin-left: 0;\n    text-transform: uppercase;\n  }\n}\n.form-group__select {\n  max-width: 100%;\n  width: 100%;\n  height: 2rem;\n  display: block;\n  padding: 0.2rem 0.5rem;\n  font-size: 1rem;\n  line-height: 1.25;\n  color: #55595c;\n  background-color: #fff;\n  background-image: none;\n  background-clip: padding-box;\n  border: 1px solid rgba(0,0,0,0.15);\n  border-radius: 0.25rem;\n}\n.modal {\n  position: fixed;\n  left: 50%;\n  top: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  background: #fff;\n  max-width: 300px;\n  border-radius: 12px;\n  font-size: 1rem;\n  line-height: 22px;\n  text-align: center;\n}\n.modal__inner {\n  position: relative;\n  padding: 10px 20px;\n}\n.modal__close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  font-size: 22px;\n  cursor: pointer;\n}\n.modal__link {\n  white-space: nowrap;\n}\n.toggle-switch {\n  position: absolute;\n  right: 21px;\n  top: 21px;\n  overflow: hidden;\n  padding: 0;\n  width: 33px;\n  height: 22px;\n  font-size: 0;\n  text-indent: -9999px;\n  border: none;\n  background: 0 0;\n  cursor: pointer;\n  display: none;\n}\n@media (max-width: 1280px) {\n  .toggle-switch {\n    display: block;\n  }\n}\n.toggle-switch__inner {\n  position: relative;\n  width: 33px;\n  height: 22px;\n  display: block;\n}\n.toggle-switch__line {\n  display: block;\n  height: 2px;\n  background: #576377;\n  opacity: 1;\n}\n.toggle-switch__line::before,\n.toggle-switch__line::after {\n  content: '';\n  position: absolute;\n  display: block;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  background-color: #576377;\n  bottom: 0;\n}\n.toggle-switch__line::before {\n  bottom: auto;\n  top: 10px;\n}\n", ""]);
+	exports.push([module.id, "body {\n  margin: 0;\n  padding: 0;\n  background: #eee;\n  color: #808080;\n  font-size: 14px;\n  font-family: Arial;\n  background: url(" + __webpack_require__(197) + ") center top/cover no-repeat fixed;\n}\n.container__inner {\n  overflow: hidden;\n}\n.container .box {\n  float: left;\n  position: relative;\n  width: 100%;\n}\n@media only screen and (min-width: 250px) {\n  .container .box {\n    width: 50%;\n  }\n}\n@media only screen and (min-width: 500px) {\n  .container .box {\n    width: 33.3333%;\n  }\n}\n@media only screen and (min-width: 750px) {\n  .container .box {\n    width: 25%;\n  }\n}\n@media only screen and (min-width: 1000px) {\n  .container .box {\n    width: 20%;\n  }\n}\n@media only screen and (min-width: 1266px) {\n  .container .box {\n    width: 16.666666%;\n  }\n}\n@media only screen and (min-width: 1500px) {\n  .container .box {\n    width: 14.2857%;\n  }\n}\n@media only screen and (min-width: 1700px) {\n  .container .box {\n    width: 12.5%;\n  }\n}\n@media only screen and (min-width: 1985px) {\n  .container .box {\n    width: 11.111111%;\n  }\n}\n.container .box__image {\n  display: block;\n  max-height: 100%;\n  max-width: 100%;\n  width: 100%;\n  height: 100%;\n}\n.container__inner {\n  max-height: 100%;\n  overflow: hidden;\n}\n.header {\n  position: fixed;\n  left: 0;\n  right: 0;\n  top: 0;\n  z-index: 1;\n}\n.header__logo {\n  display: block;\n}\n.header__logo-container {\n  background: none;\n  float: left;\n  width: 298px;\n  overflow: hidden;\n  position: relative;\n}\n.header__info {\n  position: absolute;\n  left: 23px;\n  top: 33px;\n}\n.header__filter {\n  background: #fff;\n  padding: 18px 5px;\n  text-align: right;\n  box-sizing: border-box;\n  float: left;\n  width: calc(100% - 298px);\n  height: 68px;\n  overflow: hidden;\n}\n@media (max-width: 1280px) {\n  .header__inner {\n    position: fixed;\n    right: 0;\n    top: 68px;\n    bottom: 0;\n    height: auto;\n    background: #fff;\n    width: 0;\n    height: 100%;\n    min-height: 520px;\n    -webkit-transition: width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n    transition: width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n    z-index: 99;\n    text-align: center;\n    padding-top: 15px;\n  }\n  .menu-opened .header__inner {\n    width: 250px;\n  }\n}\n.form-group {\n  padding: 0 10px;\n  display: inline-block;\n  width: 10%;\n}\n@media (max-width: 1280px) {\n  .form-group {\n    width: 189px;\n    float: none;\n    margin-bottom: 15px;\n  }\n}\n.form-group_links {\n  text-align: left;\n  width: auto;\n}\n@media (max-width: 1280px) {\n  .form-group_links {\n    width: 189px;\n    margin-bottom: 5px;\n  }\n}\n.form-group__link {\n  font-size: 1rem;\n  cursor: pointer;\n  line-height: 32px;\n  border-bottom: 1px #808080 dashed;\n}\n.form-group__link:last-child {\n  margin-left: 20px;\n}\n@media (max-width: 1280px) {\n  .form-group__link:last-child {\n    margin-left: 0;\n    text-transform: uppercase;\n  }\n}\n.form-group__select {\n  max-width: 100%;\n  width: 100%;\n  height: 2rem;\n  display: block;\n  padding: 0.2rem 0.5rem;\n  font-size: 1rem;\n  line-height: 1.25;\n  color: #55595c;\n  background-color: #fff;\n  background-image: none;\n  background-clip: padding-box;\n  border: 1px solid rgba(0,0,0,0.15);\n  border-radius: 0.25rem;\n}\n.modal {\n  position: fixed;\n  left: 50%;\n  top: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  background: #fff;\n  max-width: 300px;\n  border-radius: 12px;\n  font-size: 1rem;\n  line-height: 22px;\n  text-align: center;\n}\n.modal__inner {\n  position: relative;\n  padding: 10px 20px;\n}\n.modal__close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  font-size: 22px;\n  cursor: pointer;\n}\n.modal__link {\n  white-space: nowrap;\n}\n.toggle-switch {\n  position: absolute;\n  right: 21px;\n  top: 21px;\n  overflow: hidden;\n  padding: 0;\n  width: 33px;\n  height: 22px;\n  font-size: 0;\n  text-indent: -9999px;\n  border: none;\n  background: 0 0;\n  cursor: pointer;\n  display: none;\n}\n@media (max-width: 1280px) {\n  .toggle-switch {\n    display: block;\n  }\n}\n.toggle-switch__inner {\n  position: relative;\n  width: 33px;\n  height: 22px;\n  display: block;\n}\n.toggle-switch__line {\n  display: block;\n  height: 2px;\n  background: #576377;\n  opacity: 1;\n}\n.toggle-switch__line::before,\n.toggle-switch__line::after {\n  content: '';\n  position: absolute;\n  display: block;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  background-color: #576377;\n  bottom: 0;\n}\n.toggle-switch__line::before {\n  bottom: auto;\n  top: 10px;\n}\n", ""]);
 	
 	// exports
 
@@ -22931,6 +22931,12 @@
 
 /***/ },
 /* 197 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "src/images/bg.jpg";
+
+/***/ },
+/* 198 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -23182,7 +23188,7 @@
 
 
 /***/ },
-/* 198 */
+/* 199 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -23197,15 +23203,15 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _stands_list = __webpack_require__(199);
+	var _stands_list = __webpack_require__(200);
 	
 	var _stands_list2 = _interopRequireDefault(_stands_list);
 	
-	var _header = __webpack_require__(224);
+	var _header = __webpack_require__(225);
 	
 	var _header2 = _interopRequireDefault(_header);
 	
-	var _modal = __webpack_require__(226);
+	var _modal = __webpack_require__(228);
 	
 	var _modal2 = _interopRequireDefault(_modal);
 	
@@ -23245,7 +23251,7 @@
 	exports.default = App;
 
 /***/ },
-/* 199 */
+/* 200 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -23262,7 +23268,7 @@
 	
 	var _reactRedux = __webpack_require__(164);
 	
-	var _index = __webpack_require__(200);
+	var _index = __webpack_require__(201);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -23293,7 +23299,7 @@
 	        return _react2.default.createElement(
 	          'div',
 	          { className: 'box', key: stand.id },
-	          _react2.default.createElement('img', { className: 'box__image', src: __webpack_require__(223)("./" + stand.id + '.jpg') })
+	          _react2.default.createElement('img', { className: 'box__image', src: !(function webpackMissingModule() { var e = new Error("Cannot find module \"../images/stands\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()) })
 	        );
 	      });
 	    }
@@ -23346,7 +23352,7 @@
 	exports.default = (0, _reactRedux.connect)(MapStateToProps, { fetchStands: _index.fetchStands })(StandsList);
 
 /***/ },
-/* 200 */
+/* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -23365,7 +23371,7 @@
 	exports.filterMusicByTurn = filterMusicByTurn;
 	exports.visibilityModal = visibilityModal;
 	
-	var _axios = __webpack_require__(201);
+	var _axios = __webpack_require__(202);
 	
 	var _axios2 = _interopRequireDefault(_axios);
 	
@@ -23447,20 +23453,20 @@
 	};
 
 /***/ },
-/* 201 */
+/* 202 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(202);
+	module.exports = __webpack_require__(203);
 
 /***/ },
-/* 202 */
+/* 203 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var utils = __webpack_require__(203);
-	var bind = __webpack_require__(204);
-	var Axios = __webpack_require__(205);
+	var utils = __webpack_require__(204);
+	var bind = __webpack_require__(205);
+	var Axios = __webpack_require__(206);
 	
 	/**
 	 * Create an instance of Axios
@@ -23496,7 +23502,7 @@
 	axios.all = function all(promises) {
 	  return Promise.all(promises);
 	};
-	axios.spread = __webpack_require__(222);
+	axios.spread = __webpack_require__(223);
 	
 	module.exports = axios;
 	
@@ -23505,12 +23511,12 @@
 
 
 /***/ },
-/* 203 */
+/* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var bind = __webpack_require__(204);
+	var bind = __webpack_require__(205);
 	
 	/*global toString:true*/
 	
@@ -23810,7 +23816,7 @@
 
 
 /***/ },
-/* 204 */
+/* 205 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -23827,17 +23833,17 @@
 
 
 /***/ },
-/* 205 */
+/* 206 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var defaults = __webpack_require__(206);
-	var utils = __webpack_require__(203);
-	var InterceptorManager = __webpack_require__(208);
-	var dispatchRequest = __webpack_require__(209);
-	var isAbsoluteURL = __webpack_require__(220);
-	var combineURLs = __webpack_require__(221);
+	var defaults = __webpack_require__(207);
+	var utils = __webpack_require__(204);
+	var InterceptorManager = __webpack_require__(209);
+	var dispatchRequest = __webpack_require__(210);
+	var isAbsoluteURL = __webpack_require__(221);
+	var combineURLs = __webpack_require__(222);
 	
 	/**
 	 * Create a new instance of Axios
@@ -23918,13 +23924,13 @@
 
 
 /***/ },
-/* 206 */
+/* 207 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var utils = __webpack_require__(203);
-	var normalizeHeaderName = __webpack_require__(207);
+	var utils = __webpack_require__(204);
+	var normalizeHeaderName = __webpack_require__(208);
 	
 	var PROTECTION_PREFIX = /^\)\]\}',?\n/;
 	var DEFAULT_CONTENT_TYPE = {
@@ -23996,12 +24002,12 @@
 
 
 /***/ },
-/* 207 */
+/* 208 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var utils = __webpack_require__(203);
+	var utils = __webpack_require__(204);
 	
 	module.exports = function normalizeHeaderName(headers, normalizedName) {
 	  utils.forEach(headers, function processHeader(value, name) {
@@ -24014,12 +24020,12 @@
 
 
 /***/ },
-/* 208 */
+/* 209 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var utils = __webpack_require__(203);
+	var utils = __webpack_require__(204);
 	
 	function InterceptorManager() {
 	  this.handlers = [];
@@ -24072,13 +24078,13 @@
 
 
 /***/ },
-/* 209 */
+/* 210 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
-	var utils = __webpack_require__(203);
-	var transformData = __webpack_require__(210);
+	var utils = __webpack_require__(204);
+	var transformData = __webpack_require__(211);
 	
 	/**
 	 * Dispatch a request to the server using whichever adapter
@@ -24119,10 +24125,10 @@
 	    adapter = config.adapter;
 	  } else if (typeof XMLHttpRequest !== 'undefined') {
 	    // For browsers use XHR adapter
-	    adapter = __webpack_require__(211);
+	    adapter = __webpack_require__(212);
 	  } else if (typeof process !== 'undefined') {
 	    // For node use HTTP adapter
-	    adapter = __webpack_require__(211);
+	    adapter = __webpack_require__(212);
 	  }
 	
 	  return Promise.resolve(config)
@@ -24154,12 +24160,12 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(112)))
 
 /***/ },
-/* 210 */
+/* 211 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var utils = __webpack_require__(203);
+	var utils = __webpack_require__(204);
 	
 	/**
 	 * Transform the data for a request or a response
@@ -24180,18 +24186,18 @@
 
 
 /***/ },
-/* 211 */
+/* 212 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var utils = __webpack_require__(203);
-	var settle = __webpack_require__(212);
-	var buildURL = __webpack_require__(215);
-	var parseHeaders = __webpack_require__(216);
-	var isURLSameOrigin = __webpack_require__(217);
-	var createError = __webpack_require__(213);
-	var btoa = (typeof window !== 'undefined' && window.btoa) || __webpack_require__(218);
+	var utils = __webpack_require__(204);
+	var settle = __webpack_require__(213);
+	var buildURL = __webpack_require__(216);
+	var parseHeaders = __webpack_require__(217);
+	var isURLSameOrigin = __webpack_require__(218);
+	var createError = __webpack_require__(214);
+	var btoa = (typeof window !== 'undefined' && window.btoa) || __webpack_require__(219);
 	
 	module.exports = function xhrAdapter(config) {
 	  return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -24285,7 +24291,7 @@
 	    // This is only done if running in a standard browser environment.
 	    // Specifically not if we're in a web worker, or react-native.
 	    if (utils.isStandardBrowserEnv()) {
-	      var cookies = __webpack_require__(219);
+	      var cookies = __webpack_require__(220);
 	
 	      // Add xsrf header
 	      var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -24348,12 +24354,12 @@
 
 
 /***/ },
-/* 212 */
+/* 213 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var createError = __webpack_require__(213);
+	var createError = __webpack_require__(214);
 	
 	/**
 	 * Resolve or reject a Promise based on response status.
@@ -24379,12 +24385,12 @@
 
 
 /***/ },
-/* 213 */
+/* 214 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var enhanceError = __webpack_require__(214);
+	var enhanceError = __webpack_require__(215);
 	
 	/**
 	 * Create an Error with the specified message, config, error code, and response.
@@ -24402,7 +24408,7 @@
 
 
 /***/ },
-/* 214 */
+/* 215 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -24427,12 +24433,12 @@
 
 
 /***/ },
-/* 215 */
+/* 216 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var utils = __webpack_require__(203);
+	var utils = __webpack_require__(204);
 	
 	function encode(val) {
 	  return encodeURIComponent(val).
@@ -24501,12 +24507,12 @@
 
 
 /***/ },
-/* 216 */
+/* 217 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var utils = __webpack_require__(203);
+	var utils = __webpack_require__(204);
 	
 	/**
 	 * Parse headers into an object
@@ -24544,12 +24550,12 @@
 
 
 /***/ },
-/* 217 */
+/* 218 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var utils = __webpack_require__(203);
+	var utils = __webpack_require__(204);
 	
 	module.exports = (
 	  utils.isStandardBrowserEnv() ?
@@ -24618,7 +24624,7 @@
 
 
 /***/ },
-/* 218 */
+/* 219 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -24660,12 +24666,12 @@
 
 
 /***/ },
-/* 219 */
+/* 220 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var utils = __webpack_require__(203);
+	var utils = __webpack_require__(204);
 	
 	module.exports = (
 	  utils.isStandardBrowserEnv() ?
@@ -24719,7 +24725,7 @@
 
 
 /***/ },
-/* 220 */
+/* 221 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -24739,7 +24745,7 @@
 
 
 /***/ },
-/* 221 */
+/* 222 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -24757,7 +24763,7 @@
 
 
 /***/ },
-/* 222 */
+/* 223 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -24790,26 +24796,20 @@
 
 
 /***/ },
-/* 223 */
-/***/ function(module, exports, __webpack_require__) {
+/* 224 */
+/***/ function(module, exports) {
 
-	var map = {};
 	function webpackContext(req) {
-		return __webpack_require__(webpackContextResolve(req));
-	};
-	function webpackContextResolve(req) {
-		return map[req] || (function() { throw new Error("Cannot find module '" + req + "'.") }());
-	};
-	webpackContext.keys = function webpackContextKeys() {
-		return Object.keys(map);
-	};
-	webpackContext.resolve = webpackContextResolve;
+		throw new Error("Cannot find module '" + req + "'.");
+	}
+	webpackContext.keys = function() { return []; };
+	webpackContext.resolve = webpackContext;
 	module.exports = webpackContext;
-	webpackContext.id = 223;
+	webpackContext.id = 224;
 
 
 /***/ },
-/* 224 */
+/* 225 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -24826,7 +24826,7 @@
 	
 	var _reactRedux = __webpack_require__(164);
 	
-	var _stands_filters = __webpack_require__(225);
+	var _stands_filters = __webpack_require__(226);
 	
 	var _stands_filters2 = _interopRequireDefault(_stands_filters);
 	
@@ -24863,7 +24863,7 @@
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'header__logo-container' },
-	          _react2.default.createElement('img', { className: 'header__logo', src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../images/logo.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) }),
+	          _react2.default.createElement('img', { className: 'header__logo', src: __webpack_require__(227) }),
 	          _react2.default.createElement(
 	            'p',
 	            { className: 'header__info' },
@@ -24913,7 +24913,7 @@
 	exports.default = (0, _reactRedux.connect)(mapStateToProps)(Header);
 
 /***/ },
-/* 225 */
+/* 226 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -24930,7 +24930,7 @@
 	
 	var _reactRedux = __webpack_require__(164);
 	
-	var _index = __webpack_require__(200);
+	var _index = __webpack_require__(201);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -25237,7 +25237,13 @@
 	})(StandsFilters);
 
 /***/ },
-/* 226 */
+/* 227 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "src/images/logo.png";
+
+/***/ },
+/* 228 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -25254,7 +25260,7 @@
 	
 	var _reactRedux = __webpack_require__(164);
 	
-	var _index = __webpack_require__(200);
+	var _index = __webpack_require__(201);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -25325,7 +25331,7 @@
 	exports.default = (0, _reactRedux.connect)(mapStateToProps, { visibilityModal: _index.visibilityModal })(Modal);
 
 /***/ },
-/* 227 */
+/* 229 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -25336,7 +25342,7 @@
 	
 	var _redux = __webpack_require__(171);
 	
-	var _reducer_stands = __webpack_require__(228);
+	var _reducer_stands = __webpack_require__(230);
 	
 	var _reducer_stands2 = _interopRequireDefault(_reducer_stands);
 	
@@ -25349,7 +25355,7 @@
 	exports.default = rootReducer;
 
 /***/ },
-/* 228 */
+/* 230 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -25429,7 +25435,7 @@
 	  }
 	};
 	
-	var _index = __webpack_require__(200);
+	var _index = __webpack_require__(201);
 	
 	var INITIAL_STATE = {
 	  items: []

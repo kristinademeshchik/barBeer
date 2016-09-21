@@ -1,1022 +1,3817 @@
-[
-  {
-    "id": 1,
-    "type": "Заведение",
-    "mark": "Сaves da cerveja",
-    "view": "Ресторан-пивоварня",
-    "country": "Португалия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 2,
-    "type": "Заведение",
-    "mark": "-",
-    "view": "-",
-    "country": "Беларусь",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 3,
-    "type": "Заведение",
-    "mark": "Корс",
-    "view": "Ресторан-пивоварня",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 4,
-    "type": "Пиво",
-    "mark": "Kukko",
-    "view": "Pilsner",
-    "country": "Финляндия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 5,
-    "type": "Пиво",
-    "mark": "Lāčplēsis Dzīvs",
-    "view": "Zwickelbier",
-    "country": "Латвия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 6,
-    "type": "Заведение",
-    "mark": "München",
-    "view": "Пивоварня",
-    "country": "Германия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 7,
-    "type": "Пиво",
-    "mark": "Heineken",
-    "view": "Lager",
-    "country": "Голландия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 8,
-    "type": "Пиво",
-    "mark": "Wells Bombardier",
-    "view": "English Bitter",
-    "country": "Англия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 9,
-    "type": "Пиво",
-    "mark": "Heineken",
-    "view": "Lager",
-    "country": "Голландия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 10,
-    "type": "Заведение",
-    "mark": "Alpirsbacher Klosterbräu",
-    "view": "Пивоварня",
-    "country": "Германия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 11,
-    "type": "Пиво",
-    "mark": "Budweiser Budvar",
-    "view": "Pilsner",
-    "country": "Чехия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 12,
-    "type": "Заведение",
-    "mark": "The Bulldog",
-    "view": "Паб",
-    "country": "Голландия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 13,
-    "type": "Пиво",
-    "mark": "Gösser NaturGold",
-    "view": "Non-Alcoholic",
-    "country": "Австрия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 14,
-    "type": "Пиво",
-    "mark": "Sion Kölsch",
-    "view": "Kölsch",
-    "country": "Германия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 15,
-    "type": "Заведение",
-    "mark": "münchner reinheitsgebot",
-    "view": "Пивоварня",
-    "country": "Германия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 16,
-    "type": "Пиво",
-    "mark": "Birzu Alaus Darykla 1686 Jubiliejinis Plus",
-    "view": "Old Ale",
-    "country": "Литва",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 17,
-    "type": "Пиво",
-    "mark": "Золотая Бочка Светлое",
-    "view": "Lager",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 18,
-    "type": "Заведение",
-    "mark": "Münhell",
-    "view": "Пивоварня",
-    "country": "Россия",
-    "shape": "Другое",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 19,
-    "type": "Виски",
-    "mark": "Teerenpeli",
-    "view": "Single Malt",
-    "country": "Финляндия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 20,
-    "type": "Пиво",
-    "mark": "Carling Extra Cold",
-    "view": "Lager",
-    "country": "Англия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 21,
-    "type": "Пиво",
-    "mark": "Krušovice",
-    "view": "Много",
-    "country": "Чехия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 22,
-    "type": "Пиво",
-    "mark": "Krušovice",
-    "view": "Много",
-    "country": "Чехия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 23,
-    "type": "Пиво",
-    "mark": "Gaffel Kölsch",
-    "view": "Kölsch",
-    "country": "Германия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 24,
-    "type": "Заведение",
-    "mark": "Poutník",
-    "view": "Пивоварня",
-    "country": "Чехия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 25,
-    "type": "Пиво",
-    "mark": "Augustijn",
-    "view": "Много",
-    "country": "Бельгия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 26,
-    "type": "Пиво",
-    "mark": "Бочкарев Светлое",
-    "view": "Lager",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 27,
-    "type": "Пиво",
-    "mark": "LightSwitch",
-    "view": "Lager",
-    "country": "США",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 28,
-    "type": "Пиво",
-    "mark": "Старый Мельник Светлое",
-    "view": "Lager",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 29,
-    "type": "Заведение",
-    "mark": "Rock Bottom",
-    "view": "Пивоварня",
-    "country": "США",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 30,
-    "type": "Заведение",
-    "mark": "Jedes Krugerl",
-    "view": "Ресторан-пивоварня",
-    "country": "Австрия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 31,
-    "type": "Заведение",
-    "mark": "AF brew",
-    "view": "Пивоварня",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 32,
-    "type": "Пиво",
-    "mark": "Duchesse de Bourgogne",
-    "view": "Flanders Red Ale",
-    "country": "Бельгия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 33,
-    "type": "Заведение",
-    "mark": "Draft Republic",
-    "view": "Ресторан-пивоварня",
-    "country": "США",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 34,
-    "type": "Пиво",
-    "mark": "Gordon",
-    "view": "Много",
-    "country": "Бельгия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 35,
-    "type": "Заведение",
-    "mark": "Craft",
-    "view": "Магазин",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 36,
-    "type": "Пиво",
-    "mark": "Lambic de Metropole",
-    "view": "Lambic",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 37,
-    "type": "Пиво",
-    "mark": "Amstel",
-    "view": "Lager",
-    "country": "Голландия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 38,
-    "type": "Заведение",
-    "mark": "Староместный пивовар",
-    "view": "Ресторан-пивоварня",
-    "country": "Беларусь",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 39,
-    "type": "Пиво",
-    "mark": "Василеостровское",
-    "view": "Lager",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 40,
-    "type": "Заведение",
-    "mark": "Пивной Рай",
-    "view": "Ресторан-пивоварня",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 41,
-    "type": "Пиво",
-    "mark": "Pražský most",
-    "view": "Pilsner",
-    "country": "Чехия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 42,
-    "type": "Заведение",
-    "mark": "Наbeerежная",
-    "view": "Ресторан-пивоварня",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 43,
-    "type": "Заведение",
-    "mark": "Градъ Петровъ",
-    "view": "Ресторан-пивоварня",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 44,
-    "type": "Заведение",
-    "mark": "Maxbier",
-    "view": "Пивоварня",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 45,
-    "type": "Заведение",
-    "mark": "Солод и Хмель",
-    "view": "Ресторан-пивоварня",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 46,
-    "type": "Заведение",
-    "mark": "Stargorod",
-    "view": "Пивоварня",
-    "country": "Украина",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 47,
-    "type": "Заведение",
-    "mark": "Градское",
-    "view": "Пивоварня",
-    "country": "Беларусь",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 48,
-    "type": "Заведение",
-    "mark": "Бровар",
-    "view": "Ресторан-пивоварня",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 49,
-    "type": "Пиво",
-    "mark": "Brune de Metropole",
-    "view": "Brown Ale",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 50,
-    "type": "Пиво",
-    "mark": "Blonder Beer",
-    "view": "Lager",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 51,
-    "type": "Пиво",
-    "mark": "Villacher",
-    "view": "Pilsner",
-    "country": "Австрия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 52,
-    "type": "Заведение",
-    "mark": "1516brewingcompany",
-    "view": "Пивоварня",
-    "country": "Австрия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 53,
-    "type": "Пиво",
-    "mark": "Irlbacher Premium",
-    "view": "Lager",
-    "country": "Германия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 54,
-    "type": "Пиво",
-    "mark": "Grolsch",
-    "view": "Pilsner",
-    "country": "Голландия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 55,
-    "type": "Пиво",
-    "mark": "1664 Blanc",
-    "view": "Witbier",
-    "country": "Франция",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 56,
-    "type": "Сок",
-    "mark": "Postmann",
-    "view": "-",
-    "country": "Германия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 57,
-    "type": "Пиво",
-    "mark": "Thier",
-    "view": "Pilsner",
-    "country": "Германия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 58,
-    "type": "Пиво",
-    "mark": "Zlatý Bažant",
-    "view": "Pilsner",
-    "country": "Словакия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 59,
-    "type": "Заведение",
-    "mark": "Irish Pubs",
-    "view": "Паб",
-    "country": "Голландия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 60,
-    "type": "Пиво",
-    "mark": "Beck's Vier",
-    "view": "Pilsner",
-    "country": "Германия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 61,
-    "type": "Заведение",
-    "mark": "HF FÉNIX",
-    "view": "Отель",
-    "country": "Португалия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 62,
-    "type": "Пиво",
-    "mark": "La Trappe Witte Trappist",
-    "view": "Witbier",
-    "country": "Голландия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 63,
-    "type": "Пиво",
-    "mark": "Kriek",
-    "view": "Lambic",
-    "country": "Бельгия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 64,
-    "type": "Пиво",
-    "mark": "Duvel",
-    "view": "Belgian Strong Pale Ale",
-    "country": "Бельгия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 65,
-    "type": "Пиво",
-    "mark": "Alpen Bier",
-    "view": "Witbier",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 66,
-    "type": "Пиво",
-    "mark": "Ename",
-    "view": "Belgian Tripel",
-    "country": "Бельгия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 67,
-    "type": "Заведение",
-    "mark": "МЕГАФЕСТ",
-    "view": "Фестиваль",
-    "country": "Россия",
-    "shape": "Ромб",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 68,
-    "type": "Пиво",
-    "mark": "Grolsch",
-    "view": "Pilsner",
-    "country": "Голландия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 69,
-    "type": "Чай",
-    "mark": "-",
-    "view": "-",
-    "country": "Китай",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 70,
-    "type": "Заведение",
-    "mark": "Beerstein",
-    "view": "Ресторан-пивоварня",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 71,
-    "type": "Заведение",
-    "mark": "Северная привоварня",
-    "view": "Пивоварня",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 72,
-    "type": "Заведение",
-    "mark": "2 Берега",
-    "view": "Ресторан",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 74,
-    "type": "Заведение",
-    "mark": "2 Берега",
-    "view": "Ресторан",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 75,
-    "type": "Вино",
-    "mark": "-",
-    "view": "-",
-    "country": "США",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 76,
-    "type": "Пиво",
-    "mark": "Delirium",
-    "view": "Belgian Strong Pale Ale",
-    "country": "Бельгия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 77,
-    "type": "Заведение",
-    "mark": "Knightberg",
-    "view": "Пивоварня",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 78,
-    "type": "Пиво",
-    "mark": "Bourgogne Des Flandres Brune/Bruin",
-    "view": "Flanders Oud Bruin",
-    "country": "Бельгия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 79,
-    "type": "Заведение",
-    "mark": "Knightberg",
-    "view": "Пивоварня",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 80,
-    "type": "Заведение",
-    "mark": "Jaws Brewery",
-    "view": "Пивоварня",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 81,
-    "type": "Пиво",
-    "mark": "Murphy's Irish Red",
-    "view": "Red Ale - Irish",
-    "country": "Ирландия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 82,
-    "type": "Пиво",
-    "mark": "Floreffe",
-    "view": "Belgian Tripel",
-    "country": "Бельгия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 83,
-    "type": "Заведение",
-    "mark": "Novoměstský pivovar",
-    "view": "Пивоварня",
-    "country": "Чехия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 84,
-    "type": "Пиво",
-    "mark": "Василеостровское",
-    "view": "Lager",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 85,
-    "type": "Пиво",
-    "mark": "Василеостровское",
-    "view": "Lager",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 86,
-    "type": "Пиво",
-    "mark": "Bitburger",
-    "view": "Pilsner",
-    "country": "Германия",
-    "shape": "Ромб",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 87,
-    "type": "Пиво",
-    "mark": "Brinkhoff's No. 1",
-    "view": "Pilsner",
-    "country": "Германия",
-    "shape": "Квадрат",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 88,
-    "type": "Заведение",
-    "mark": "Betfair",
-    "view": "Букмекер",
-    "country": "Англия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 89,
-    "type": "Пиво",
-    "mark": "Žatecký Gus",
-    "view": "Pilsner",
-    "country": "Россия",
-    "shape": "Квадрат",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 90,
-    "type": "Пиво",
-    "mark": "IPA/Bitter",
-    "view": "Много",
-    "country": "Англия",
-    "shape": "Другое",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 91,
-    "type": "Заведение",
-    "mark": "Brew Dog",
-    "view": "Пивоварня",
-    "country": "Англия",
-    "shape": "Другое",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 92,
-    "type": "Заведение",
-    "mark": "The Queens Head",
-    "view": "Ресторан",
-    "country": "Англия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 93,
-    "type": "Пиво",
-    "mark": "Murauer",
-    "view": "Märzen",
-    "country": "Австрия",
-    "shape": "Овал",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 94,
-    "type": "Пиво",
-    "mark": "Snowdonia Ale",
-    "view": "English Bitter",
-    "country": "Уэльс",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 95,
-    "type": "Заведение",
-    "mark": "Great Divide",
-    "view": "Пивоварня",
-    "country": "США",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 96,
-    "type": "Пиво",
-    "mark": "Weizenfeld",
-    "view": "Pilsner",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 97,
-    "type": "Заведение",
-    "mark": "Baltika",
-    "view": "Ресторан-пивоварня",
-    "country": "Россия",
-    "shape": "Круг",
-    "turn": "Нет",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 98,
-    "type": "Заведение",
-    "mark": "AleSmith",
-    "view": "Пивоварня",
-    "country": "США",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 99,
-    "type": "Заведение",
-    "mark": "Paulaner",
-    "view": "Пивоварня",
-    "country": "Германия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 100,
-    "type": "Заведение",
-    "mark": "Лидское Пиво",
-    "view": "Пивоварня",
-    "country": "Беларусь",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 101,
-    "type": "Заведение",
-    "mark": "Affligem Brouwerij",
-    "view": "Пивоварня",
-    "country": "Бельгия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 102,
-    "type": "Заведение",
-    "mark": "Bayerische Staatsbrauerei Weihenstephan",
-    "view": "Пивоварня",
-    "country": "Германия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  },
-  {
-    "id": 103,
-    "type": "Пиво",
-    "mark": "Dom Kölsch",
-    "view": "Kölsch",
-    "country": "Германия",
-    "shape": "Круг",
-    "turn": "Да",
-    "imgSrc": "img.jpg"
-  }
-]
+﻿[{
+	"id": 1,
+	"type": "Заведение",
+	"mark": "Сaves da cerveja",
+	"view": "Ресторан-пивоварня",
+	"country": "Португалия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 2,
+	"type": "Заведение",
+	"mark": "-",
+	"view": "-",
+	"country": "Беларусь",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 3,
+	"type": "Заведение",
+	"mark": "Корс",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 4,
+	"type": "Пиво",
+	"mark": "Kukko",
+	"view": "Pilsner ",
+	"country": "Финляндия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 5,
+	"type": "Пиво",
+	"mark": "Lāčplēsis Dzīvs",
+	"view": "Zwickelbier",
+	"country": "Латвия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 6,
+	"type": "Заведение",
+	"mark": "München",
+	"view": "Пивоварня",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 7,
+	"type": "Пиво",
+	"mark": "Heineken",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 8,
+	"type": "Пиво",
+	"mark": "Wells Bombardier",
+	"view": "English Bitter",
+	"country": "Англия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 9,
+	"type": "Пиво",
+	"mark": "Heineken",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 10,
+	"type": "Заведение",
+	"mark": "Alpirsbacher Klosterbräu",
+	"view": "Пивоварня",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 11,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 12,
+	"type": "Заведение",
+	"mark": "The Bulldog",
+	"view": "Паб",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 13,
+	"type": "Пиво",
+	"mark": "Gösser NaturGold",
+	"view": "Non-Alcoholic",
+	"country": "Австрия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 14,
+	"type": "Пиво",
+	"mark": "Sion Kölsch",
+	"view": "Kölsch",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 15,
+	"type": "Заведение",
+	"mark": "Augustiner-Bräu München",
+	"view": "Пивоварня",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 16,
+	"type": "Пиво",
+	"mark": "Birzu Alaus Darykla 1686 Jubiliejinis Plus",
+	"view": "Old Ale",
+	"country": "Литва",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 17,
+	"type": "Пиво",
+	"mark": "Золотая Бочка Светлое",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 18,
+	"type": "Заведение",
+	"mark": "Münhell",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 19,
+	"type": "Виски",
+	"mark": "Teerenpeli",
+	"view": "Single Malt",
+	"country": "Финляндия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 20,
+	"type": "Пиво",
+	"mark": "Carling Extra Cold",
+	"view": "Lager",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 21,
+	"type": "Пиво",
+	"mark": "Krušovice",
+	"view": "Много",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 22,
+	"type": "Пиво",
+	"mark": "Krušovice",
+	"view": "Много",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 23,
+	"type": "Пиво",
+	"mark": "Gaffel Kölsch",
+	"view": "Kölsch",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 24,
+	"type": "Заведение",
+	"mark": "Poutník",
+	"view": "Пивоварня",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 25,
+	"type": "Пиво",
+	"mark": "Augustijn",
+	"view": "Много",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 26,
+	"type": "Пиво",
+	"mark": "Бочкарев Светлое",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 27,
+	"type": "Пиво",
+	"mark": "Budweiser",
+	"view": "Lager ",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 28,
+	"type": "Пиво",
+	"mark": "Старый Мельник Светлое",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 29,
+	"type": "Заведение",
+	"mark": "Rock Bottom",
+	"view": "Пивоварня",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 30,
+	"type": "Заведение",
+	"mark": "Jedes Krugerl",
+	"view": "Ресторан-пивоварня",
+	"country": "Австрия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 31,
+	"type": "Заведение",
+	"mark": "AF brew",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 32,
+	"type": "Пиво",
+	"mark": "Duchesse de Bourgogne",
+	"view": "Flanders Red Ale",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 33,
+	"type": "Заведение",
+	"mark": "Draft Republic",
+	"view": "Ресторан-пивоварня",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 34,
+	"type": "Пиво",
+	"mark": "Gordon",
+	"view": "Много",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 35,
+	"type": "Заведение",
+	"mark": "Craft",
+	"view": "Магазин",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 36,
+	"type": "Пиво",
+	"mark": "Lambic de Metropole",
+	"view": "Lambic",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 37,
+	"type": "Пиво",
+	"mark": "Amstel",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 38,
+	"type": "Заведение",
+	"mark": "Староместный пивовар",
+	"view": "Ресторан-пивоварня",
+	"country": "Беларусь",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 39,
+	"type": "Пиво",
+	"mark": "Василеостровское",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 40,
+	"type": "Заведение",
+	"mark": "Пивной Рай",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 41,
+	"type": "Пиво",
+	"mark": "Pražský most",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 42,
+	"type": "Заведение",
+	"mark": "Наbeerежная",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 43,
+	"type": "Заведение",
+	"mark": "Градъ Петровъ",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 44,
+	"type": "Заведение",
+	"mark": "Maxbier",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 45,
+	"type": "Заведение",
+	"mark": "Солод и Хмель",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 46,
+	"type": "Заведение",
+	"mark": "Stargorod",
+	"view": "Пивоварня",
+	"country": "Украина",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 47,
+	"type": "Заведение",
+	"mark": "Градское",
+	"view": "Пивоварня",
+	"country": "Беларусь",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 48,
+	"type": "Заведение",
+	"mark": "Бровар",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 49,
+	"type": "Пиво",
+	"mark": "Brune de Metropole",
+	"view": "Brown Ale",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 50,
+	"type": "Пиво",
+	"mark": "Blonder Beer",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 51,
+	"type": "Пиво",
+	"mark": "Villacher",
+	"view": "Pilsner",
+	"country": "Австрия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 52,
+	"type": "Заведение",
+	"mark": "1516brewingcompany",
+	"view": "Пивоварня",
+	"country": "Австрия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 53,
+	"type": "Пиво",
+	"mark": "Irlbacher Premium",
+	"view": "Lager",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 54,
+	"type": "Пиво",
+	"mark": "Grolsch",
+	"view": "Pilsner",
+	"country": "Голландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 55,
+	"type": "Пиво",
+	"mark": "1664 Blanc",
+	"view": "Witbier",
+	"country": "Франция",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 56,
+	"type": "Сок",
+	"mark": "Postmann",
+	"view": "-",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 57,
+	"type": "Пиво",
+	"mark": "Thier",
+	"view": "Pilsner",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 58,
+	"type": "Пиво",
+	"mark": "Zlatý Bažant",
+	"view": "Pilsner",
+	"country": "Словакия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 59,
+	"type": "Заведение",
+	"mark": "Irish Pubs",
+	"view": "Паб",
+	"country": "Голландия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 60,
+	"type": "Пиво",
+	"mark": "Beck's Vier",
+	"view": "Pilsner",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 61,
+	"type": "Заведение",
+	"mark": "HF FÉNIX",
+	"view": "Отель",
+	"country": "Португалия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 62,
+	"type": "Пиво",
+	"mark": "La Trappe Witte Trappist",
+	"view": "Witbier",
+	"country": "Голландия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 63,
+	"type": "Пиво",
+	"mark": "Kriek",
+	"view": "Lambic",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 64,
+	"type": "Пиво",
+	"mark": "Duvel",
+	"view": "Belgian Strong Pale Ale",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 65,
+	"type": "Пиво",
+	"mark": "Alpen Bier",
+	"view": "Witbier",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 66,
+	"type": "Пиво",
+	"mark": "Ename",
+	"view": "Belgian Tripel",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 67,
+	"type": "Заведение",
+	"mark": "МЕГАФЕСТ",
+	"view": "Фестиваль",
+	"country": "Россия",
+	"shape": "Ромб",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 68,
+	"type": "Пиво",
+	"mark": "Grolsch",
+	"view": "Pilsner",
+	"country": "Голландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": false
+}, {
+	"id": 69,
+	"type": "Чай",
+	"mark": "-",
+	"view": "-",
+	"country": "Китай",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 70,
+	"type": "Заведение",
+	"mark": "Beerstein",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 71,
+	"type": "Заведение",
+	"mark": "Северная привоварня",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 72,
+	"type": "Заведение",
+	"mark": "2 Берега",
+	"view": "Ресторан",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 74,
+	"type": "Заведение",
+	"mark": "2 Берега",
+	"view": "Ресторан",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 75,
+	"type": "Вино",
+	"mark": "-",
+	"view": "-",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 76,
+	"type": "Пиво",
+	"mark": "Delirium",
+	"view": "Belgian Strong Pale Ale",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 77,
+	"type": "Заведение",
+	"mark": "Knightberg",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 78,
+	"type": "Пиво",
+	"mark": "Bourgogne Des Flandres Brune/Bruin",
+	"view": "Flanders Oud Bruin",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 79,
+	"type": "Заведение",
+	"mark": "Knightberg",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 80,
+	"type": "Заведение",
+	"mark": "Jaws Brewery",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 81,
+	"type": "Пиво",
+	"mark": "Murphy's Irish Red",
+	"view": "Red Ale - Irish",
+	"country": "Ирландия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 82,
+	"type": "Пиво",
+	"mark": "Floreffe",
+	"view": "Belgian Tripel",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 83,
+	"type": "Заведение",
+	"mark": "Novoměstský pivovar",
+	"view": "Пивоварня",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 84,
+	"type": "Пиво",
+	"mark": "Василеостровское",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 85,
+	"type": "Пиво",
+	"mark": "Василеостровское",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 86,
+	"type": "Пиво",
+	"mark": "Bitburger",
+	"view": "Pilsner",
+	"country": "Германия",
+	"shape": "Ромб",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 87,
+	"type": "Пиво",
+	"mark": "Brinkhoff's No. 1",
+	"view": "Pilsner",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 88,
+	"type": "Заведение",
+	"mark": "Betfair",
+	"view": "Букмекер",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 89,
+	"type": "Пиво",
+	"mark": "Žatecký Gus",
+	"view": "Pilsner",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 90,
+	"type": "Пиво",
+	"mark": "IPA/Bitter",
+	"view": "Много",
+	"country": "Англия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 91,
+	"type": "Заведение",
+	"mark": "Brew Dog",
+	"view": "Пивоварня",
+	"country": "Англия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 92,
+	"type": "Заведение",
+	"mark": "The Queens Head",
+	"view": "Ресторан",
+	"country": "Англия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 93,
+	"type": "Пиво",
+	"mark": "Murauer",
+	"view": "Märzen",
+	"country": "Австрия",
+	"shape": "Овал",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 94,
+	"type": "Пиво",
+	"mark": "Snowdonia Ale",
+	"view": "English Bitter",
+	"country": "Уэльс",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 95,
+	"type": "Заведение",
+	"mark": "Great Divide",
+	"view": "Пивоварня",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 96,
+	"type": "Пиво",
+	"mark": "Weizenfeld",
+	"view": "Pilsner",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 97,
+	"type": "Заведение",
+	"mark": "Балтика",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 98,
+	"type": "Заведение",
+	"mark": "AleSmith",
+	"view": "Пивоварня",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 99,
+	"type": "Заведение",
+	"mark": "Paulaner",
+	"view": "Пивоварня",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 100,
+	"type": "Заведение",
+	"mark": "Лидское Пиво",
+	"view": "Пивоварня",
+	"country": "Беларусь",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 101,
+	"type": "Заведение",
+	"mark": "Affligem Brouwerij",
+	"view": "Пивоварня",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 102,
+	"type": "Заведение",
+	"mark": "Bayerische Staatsbrauerei Weihenstephan",
+	"view": "Пивоварня",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 103,
+	"type": "Пиво",
+	"mark": "Dom Kölsch",
+	"view": "Kölsch",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 104,
+	"type": "Ликёр",
+	"mark": "Southern Comfort",
+	"view": "-",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 105,
+	"type": "Пиво",
+	"mark": "Blanche de bruxelles",
+	"view": "Witbier",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 106,
+	"type": "Пиво",
+	"mark": "Staropramen Granát",
+	"view": "Lager",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 107,
+	"type": "Заведение",
+	"mark": "The fish market",
+	"view": "Ресторан",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 108,
+	"type": "Пиво",
+	"mark": "Spaten",
+	"view": "Lager ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 109,
+	"type": "Пиво",
+	"mark": "Spaten",
+	"view": "Lager ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 110,
+	"type": "Ром",
+	"mark": "Bacardi",
+	"view": "Superior",
+	"country": "Бермуды",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 111,
+	"type": "Пиво",
+	"mark": "Murphy's",
+	"view": "Много",
+	"country": "Ирландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 112,
+	"type": "Пиво",
+	"mark": "Rouge De Fleur",
+	"view": "Fruit Beer",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 113,
+	"type": "Заведение",
+	"mark": "Jack and Chan",
+	"view": "Ресторан",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 114,
+	"type": "Пиво",
+	"mark": "Iron Woods",
+	"view": "Stout ",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 115,
+	"type": "Пиво",
+	"mark": "Young's Double Chocolate Stout",
+	"view": "Stout ",
+	"country": "Англия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 116,
+	"type": "Заведение",
+	"mark": "Redrum",
+	"view": "Бар",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 117,
+	"type": "Пиво",
+	"mark": "Hobgoblin",
+	"view": "Brown Ale",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 118,
+	"type": "Заведение",
+	"mark": "Fuller",
+	"view": "Пивоварня",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 119,
+	"type": "Пиво",
+	"mark": "Жигули",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 120,
+	"type": "Пиво",
+	"mark": "Балтика 7",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 121,
+	"type": "Пиво",
+	"mark": "Kronenbourg 1664",
+	"view": "Lager ",
+	"country": "Франция",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 122,
+	"type": "Пиво",
+	"mark": "Hell Hunt",
+	"view": "Red Ale",
+	"country": "Эстония",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 123,
+	"type": "Пиво",
+	"mark": "Guinness",
+	"view": "Stout ",
+	"country": "Ирландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 124,
+	"type": "Пиво",
+	"mark": "Coors Light",
+	"view": "Lager ",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 125,
+	"type": "Пиво",
+	"mark": "Leffe",
+	"view": "Много",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 126,
+	"type": "Пиво",
+	"mark": "Zlatý Bažant",
+	"view": "Pilsner",
+	"country": "Словакия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 127,
+	"type": "Пиво",
+	"mark": "Young's",
+	"view": "Много",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 128,
+	"type": "Чай",
+	"mark": "-",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 129,
+	"type": "Пиво",
+	"mark": "SA",
+	"view": "English Bitter",
+	"country": "Уэльс",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 130,
+	"type": "Сидр",
+	"mark": "Fizz",
+	"view": "Cider",
+	"country": "Финляндия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 131,
+	"type": "Пиво",
+	"mark": "Bowler IPA",
+	"view": "IPA",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 132,
+	"type": "Пиво",
+	"mark": "Bowler Brilliant Ale",
+	"view": "Pale Ale",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 133,
+	"type": "Пиво",
+	"mark": "Estrella Damm",
+	"view": "Lager ",
+	"country": "Испания",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 134,
+	"type": "Пиво",
+	"mark": "Estrella Damm",
+	"view": "Lager ",
+	"country": "Испания",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 135,
+	"type": "Заведение",
+	"mark": "Zagovor Brewery",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 136,
+	"type": "Пиво",
+	"mark": "Bowler Brilliant Ale",
+	"view": "Pale Ale",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 137,
+	"type": "Заведение",
+	"mark": "Василеостровская пивоварня",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 138,
+	"type": "Пиво",
+	"mark": "Pauwel Kwak",
+	"view": "Belgian Strong Pale Ale",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 139,
+	"type": "Заведение",
+	"mark": "Belhaven Brewery",
+	"view": "Пивоварня",
+	"country": "Шотландия",
+	"shape": "Овал",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 140,
+	"type": "Заведение",
+	"mark": "New Belgium Brewing ",
+	"view": "Пивоварня",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 142,
+	"type": "Пиво",
+	"mark": "Jupiler",
+	"view": "Lager ",
+	"country": "Бельгия",
+	"shape": "Другое",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 143,
+	"type": "Пиво",
+	"mark": "Hoegaarden Blanche",
+	"view": "Witbier",
+	"country": "Бельгия",
+	"shape": "Шестигранник",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 144,
+	"type": "Заведение",
+	"mark": "Crazy Craft",
+	"view": "Магазин",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 145,
+	"type": "Пиво",
+	"mark": "Сибирская Корона",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Другое",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 146,
+	"type": "Пиво",
+	"mark": "Aecht PatzenHofer",
+	"view": "Lager ",
+	"country": "Германия",
+	"shape": "Овал",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 147,
+	"type": "Пиво",
+	"mark": "Krušovice",
+	"view": "Lager ",
+	"country": "Чехия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 148,
+	"type": "Пиво",
+	"mark": "Ruddles Best",
+	"view": "English Bitter",
+	"country": "Англия",
+	"shape": "Овал",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 149,
+	"type": "Заведение",
+	"mark": "Volfas Engelman",
+	"view": "Пивоварня",
+	"country": "Литва",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 150,
+	"type": "Пиво",
+	"mark": "Kronenbourg 1664",
+	"view": "Lager ",
+	"country": "Франция",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 151,
+	"type": "Пиво",
+	"mark": "Kronenbourg 1664",
+	"view": "Lager ",
+	"country": "Франция",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 152,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 153,
+	"type": "Пиво",
+	"mark": "Хамовники",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Другое",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 154,
+	"type": "Пиво",
+	"mark": "Hoegaarden",
+	"view": "Witbier",
+	"country": "Бельгия",
+	"shape": "Шестигранник",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 155,
+	"type": "Пиво",
+	"mark": "Hoegaarden",
+	"view": "Witbier",
+	"country": "Бельгия",
+	"shape": "Шестигранник",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 156,
+	"type": "Пиво",
+	"mark": "Hoegaarden",
+	"view": "Witbier",
+	"country": "Бельгия",
+	"shape": "Шестигранник",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 157,
+	"type": "Пиво",
+	"mark": "Samuel Adams OctoberFest",
+	"view": "Märzen",
+	"country": "США",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 158,
+	"type": "Пиво",
+	"mark": "Erdinger Weißbier",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 159,
+	"type": "Заведение",
+	"mark": "Nakashita",
+	"view": "Ресторан",
+	"country": "Испания",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 160,
+	"type": "Пиво",
+	"mark": "Erdinger Weißbier",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 161,
+	"type": "Пиво",
+	"mark": "Erdinger Weißbier",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 162,
+	"type": "Пиво",
+	"mark": "Erdinger Weißbier",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 163,
+	"type": "Заведение",
+	"mark": "Карл и Фридрих",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 164,
+	"type": "Пиво",
+	"mark": "Foster's",
+	"view": "Lager ",
+	"country": "Австралия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 165,
+	"type": "Пиво",
+	"mark": "Foster's",
+	"view": "Lager ",
+	"country": "Австралия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 166,
+	"type": "Заведение",
+	"mark": "Juliusspital",
+	"view": "Сервис-компания",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 167,
+	"type": "Пиво",
+	"mark": "Tuborg",
+	"view": "Pilsner ",
+	"country": "Дания",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 168,
+	"type": "Пиво",
+	"mark": "Holsten ",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 169,
+	"type": "Пиво",
+	"mark": "Pilsner Urquell",
+	"view": "Pilsner ",
+	"country": "Чехия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 170,
+	"type": "Пиво",
+	"mark": "Kronenbourg 1664 Blanc",
+	"view": "Witbier",
+	"country": "Франция",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 171,
+	"type": "Пиво",
+	"mark": "Старый Мельник ",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 172,
+	"type": "Пиво",
+	"mark": "Allgäuer Büble Bier ",
+	"view": "Märzen",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 173,
+	"type": "Пиво",
+	"mark": "Ярпиво ",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 174,
+	"type": "Пиво",
+	"mark": "Tuborg Green ",
+	"view": "Lager ",
+	"country": "Швеция",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 175,
+	"type": "Пиво",
+	"mark": "London Pride",
+	"view": "English Bitter",
+	"country": "Англия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 176,
+	"type": "Пиво",
+	"mark": "Krušovice",
+	"view": "Lager",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 177,
+	"type": "Пиво",
+	"mark": "London Porter",
+	"view": "Porter",
+	"country": "Англия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 178,
+	"type": "Пиво",
+	"mark": "Karhu",
+	"view": "Lager",
+	"country": "Финляндия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 179,
+	"type": "Пиво",
+	"mark": "Spaten",
+	"view": "Lager ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 180,
+	"type": "Пиво",
+	"mark": "Spitfire Premium Kentish Ale",
+	"view": "English Bitter",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 181,
+	"type": "Пиво",
+	"mark": "Carlsberg",
+	"view": "Lager",
+	"country": "Дания",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 182,
+	"type": "Пиво",
+	"mark": "Невское",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 183,
+	"type": "Пиво",
+	"mark": "Veltins ",
+	"view": "Pilsner",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 184,
+	"type": "Пиво",
+	"mark": "Spaten",
+	"view": "Lager ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 185,
+	"type": "Заведение",
+	"mark": "de bassus",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 186,
+	"type": "Пиво",
+	"mark": "Ichnusa",
+	"view": "Lager",
+	"country": "Италия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 187,
+	"type": "Пиво",
+	"mark": "Titje",
+	"view": "Witbier",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 188,
+	"type": "Пиво",
+	"mark": "Roth",
+	"view": "Pilsner",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 189,
+	"type": "Пиво",
+	"mark": "Karjala",
+	"view": "Lager",
+	"country": "Финляндия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 190,
+	"type": "Заведение",
+	"mark": "Pivovarský dům",
+	"view": "Ресторан-пивоварня",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 191,
+	"type": "Сигареты",
+	"mark": "West",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 192,
+	"type": "Чай",
+	"mark": "Lipton",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 193,
+	"type": "Чай",
+	"mark": "Lipton",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 194,
+	"type": "Пиво",
+	"mark": "Чувашский Ниндзя",
+	"view": "Märzen",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 195,
+	"type": "Пиво",
+	"mark": "Asahi",
+	"view": "Lager",
+	"country": "Япония",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 196,
+	"type": "Пиво",
+	"mark": "Belhaven Black",
+	"view": "Stout",
+	"country": "Шотландия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 197,
+	"type": "Пиво",
+	"mark": "Velvet",
+	"view": "Lager",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 198,
+	"type": "Вермут",
+	"mark": "Martini",
+	"view": "Вермут",
+	"country": "Италия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 199,
+	"type": "Пиво",
+	"mark": "Collin's Imperial Stout",
+	"view": "Stout",
+	"country": "Англия",
+	"shape": "Ромб",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 200,
+	"type": "Сок",
+	"mark": "Looza",
+	"view": "Сок",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 201,
+	"type": "Пиво",
+	"mark": "Asahi",
+	"view": "Lager",
+	"country": "Япония",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 202,
+	"type": "Сок",
+	"mark": "Looza",
+	"view": "Сок",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 203,
+	"type": "Пиво",
+	"mark": "Lion Lager",
+	"view": "Lager ",
+	"country": "Шри-Ланка",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 204,
+	"type": "Заведение",
+	"mark": "Новый порт",
+	"view": "Магазин",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 205,
+	"type": "Заведение",
+	"mark": "Sophienkeller",
+	"view": "Ресторан",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 206,
+	"type": "Заведение",
+	"mark": "BEERЖА",
+	"view": "Ресторан",
+	"country": "Беларусь",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 207,
+	"type": "Чай",
+	"mark": "-",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 208,
+	"type": "Чай",
+	"mark": "-",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 209,
+	"type": "Заведение",
+	"mark": "СПбГПУ",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 210,
+	"type": "Заведение",
+	"mark": "Спорт Бар",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 211,
+	"type": "Виски",
+	"mark": "William Lawsons",
+	"view": "-",
+	"country": "Шотландия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 212,
+	"type": "Чай",
+	"mark": "-",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 213,
+	"type": "Чай",
+	"mark": "-",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 214,
+	"type": "Чай",
+	"mark": "-",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 215,
+	"type": "Чай",
+	"mark": "-",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 216,
+	"type": "Чай",
+	"mark": "-",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 217,
+	"type": "Чай",
+	"mark": "-",
+	"view": "-",
+	"country": "-",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 218,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 219,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 220,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 221,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 222,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 223,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 224,
+	"type": "Пиво",
+	"mark": "Carlsberg",
+	"view": "Lager",
+	"country": "Дания",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 225,
+	"type": "Пиво",
+	"mark": "Krušovice",
+	"view": "Много",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 226,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 227,
+	"type": "Пиво",
+	"mark": "Балтика 7",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 228,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 229,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 230,
+	"type": "Пиво",
+	"mark": "Невское",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 231,
+	"type": "Пиво",
+	"mark": "Невское",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 232,
+	"type": "Заведение",
+	"mark": "Funk haus",
+	"view": "Ресторан",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 233,
+	"type": "Пиво",
+	"mark": "Holsten ",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 234,
+	"type": "Пиво",
+	"mark": "Carlsberg",
+	"view": "Lager",
+	"country": "Дания",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 235,
+	"type": "Пиво",
+	"mark": "Zlatý Bažant",
+	"view": "Pilsner",
+	"country": "Словакия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 236,
+	"type": "Заведение",
+	"mark": "Балтика",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Ромб",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 237,
+	"type": "Пиво",
+	"mark": "Edelweiss",
+	"view": "Weissbier",
+	"country": "Австрия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 238,
+	"type": "Пиво",
+	"mark": "Guinness",
+	"view": "Stout ",
+	"country": "Ирландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 239,
+	"type": "Пиво",
+	"mark": "Lapin Kulta",
+	"view": "Lager",
+	"country": "Финляндия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 240,
+	"type": "Пиво",
+	"mark": "Löwenbräu",
+	"view": "Lager",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 241,
+	"type": "Пиво",
+	"mark": "Löwenbräu",
+	"view": "Lager",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 242,
+	"type": "Пиво",
+	"mark": "Mönchshof",
+	"view": "Lager",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 243,
+	"type": "Пиво",
+	"mark": "Bitburger",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 244,
+	"type": "Пиво",
+	"mark": "Guinness",
+	"view": "Stout ",
+	"country": "Ирландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 245,
+	"type": "Пиво",
+	"mark": "Karjala",
+	"view": "Lager",
+	"country": "Финляндия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 246,
+	"type": "Бурбон",
+	"mark": "Jim Beam",
+	"view": "-",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 247,
+	"type": "Пиво",
+	"mark": "Primátor Světlý",
+	"view": "Pilsner ",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 248,
+	"type": "Пиво",
+	"mark": "Krombacher",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 249,
+	"type": "Пиво",
+	"mark": "Harp Premium Lager",
+	"view": "Lager ",
+	"country": "Ирландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 250,
+	"type": "Пиво",
+	"mark": "Foster's",
+	"view": "Lager ",
+	"country": "Австралия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 251,
+	"type": "Пиво",
+	"mark": "Krombacher",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 252,
+	"type": "Пиво",
+	"mark": "Василеостровское",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 253,
+	"type": "Пиво",
+	"mark": "Clausthaler",
+	"view": "Non-Alcoholic",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 254,
+	"type": "Пиво",
+	"mark": "Василеостровское",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 255,
+	"type": "Пиво",
+	"mark": "Bourgogne Des Flandres Brune/Bruin",
+	"view": "Flanders Oud Bruin",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 256,
+	"type": "Пиво",
+	"mark": "Smithwick's",
+	"view": "Red Ale",
+	"country": "Ирландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 257,
+	"type": "Пиво",
+	"mark": "Leffe",
+	"view": "Много",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 258,
+	"type": "Заведение",
+	"mark": "Airbräu",
+	"view": "Пивоварня",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 259,
+	"type": "Пиво",
+	"mark": "Wells Bombardier ",
+	"view": "English Bitter",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 260,
+	"type": "Пиво",
+	"mark": "Pilsner Urquell",
+	"view": "Pilsner ",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 261,
+	"type": "Пиво",
+	"mark": "Krombacher",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 262,
+	"type": "Пиво",
+	"mark": "Carling",
+	"view": "Lager",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 263,
+	"type": "Пиво",
+	"mark": "Gaffel Kölsch",
+	"view": "Kölsch",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 264,
+	"type": "Заведение",
+	"mark": "Rock Bottom",
+	"view": "Пивоварня",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 265,
+	"type": "Заведение",
+	"mark": "Rock Bottom",
+	"view": "Пивоварня",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 266,
+	"type": "Сидр",
+	"mark": "Stassen Cider",
+	"view": "Cider",
+	"country": "Бельгия",
+	"shape": "Ромб",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 267,
+	"type": "Заведение",
+	"mark": "Belhaven Brewery",
+	"view": "Пивоварня",
+	"country": "Шотландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 268,
+	"type": "Заведение",
+	"mark": "Volfas Engelman",
+	"view": "Пивоварня",
+	"country": "Литва",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 269,
+	"type": "Пиво",
+	"mark": "Erdinger Weißbier",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 270,
+	"type": "Пиво",
+	"mark": "Tucher Helles Hefe Weizen",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 271,
+	"type": "Пиво",
+	"mark": "Балтика 8",
+	"view": "Hefeweizen",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 272,
+	"type": "Лимонад",
+	"mark": "Schweppes",
+	"view": "Лимонад",
+	"country": "Швейцария",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 273,
+	"type": "Пиво",
+	"mark": "Amstel",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 274,
+	"type": "Пиво",
+	"mark": "Klášter",
+	"view": "Pilsner ",
+	"country": "Чехия",
+	"shape": "Ромб",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 275,
+	"type": "Пиво",
+	"mark": "Newcastle Brown Ale",
+	"view": "Brown Ale",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 276,
+	"type": "Джин",
+	"mark": "Original GIN",
+	"view": "Gin",
+	"country": "Финляндия",
+	"shape": "Ромб",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 277,
+	"type": "Пиво",
+	"mark": "Franziskaner Hefe-Weissbier Naturtrüb",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 278,
+	"type": "Заведение",
+	"mark": "Belhaven Brewery",
+	"view": "Пивоварня",
+	"country": "Шотландия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 279,
+	"type": "Пиво",
+	"mark": "Балтика 7",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 280,
+	"type": "Заведение",
+	"mark": "cista trubka",
+	"view": "Ресторан",
+	"country": "Чехия",
+	"shape": "Ромб",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 281,
+	"type": "Пиво",
+	"mark": "Köstritzer Schwarzbier",
+	"view": "Schwarzbier",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 282,
+	"type": "Пиво",
+	"mark": "San Miguel",
+	"view": "Lager ",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 283,
+	"type": "Пиво",
+	"mark": "König Pilsener",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 284,
+	"type": "Пиво",
+	"mark": "St. Peter’s",
+	"view": "Пивоварня",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 285,
+	"type": "Пиво",
+	"mark": "St. Peter’s",
+	"view": "Пивоварня",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 286,
+	"type": "Пиво",
+	"mark": "Karlovec",
+	"view": "Много",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 287,
+	"type": "Заведение",
+	"mark": "Widmer Brothers Brewing",
+	"view": "Ресторан-пивоварня",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 288,
+	"type": "Пиво",
+	"mark": "Pilsner Urquell",
+	"view": "Pilsner ",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 289,
+	"type": "Пиво",
+	"mark": "Жигули",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 290,
+	"type": "Пиво",
+	"mark": "Pilsner Urquell",
+	"view": "Pilsner ",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 291,
+	"type": "Пиво",
+	"mark": "Pilsner Urquell",
+	"view": "Pilsner ",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 292,
+	"type": "Пиво",
+	"mark": "Berliner Kindl Jubiläums Pilsener",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 293,
+	"type": "Заведение",
+	"mark": "Marathonbet",
+	"view": "Букмекер",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 294,
+	"type": "Пиво",
+	"mark": "Berliner Kindl Jubiläums Pilsener",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 295,
+	"type": "Пиво",
+	"mark": "Kozel ",
+	"view": "Много",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 296,
+	"type": "Пиво",
+	"mark": "McEwan's Scotch Ale",
+	"view": "Scotch Ale",
+	"country": "Англия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 297,
+	"type": "Пиво",
+	"mark": "Kasteel",
+	"view": "Много",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 298,
+	"type": "Пиво",
+	"mark": "Delirium Tremens",
+	"view": "Belgian Strong Golden Ale",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 299,
+	"type": "Заведение",
+	"mark": "Koninklijke Brand Bierbrouwerij",
+	"view": "Пивоварня",
+	"country": "Голландия",
+	"shape": "Ромб",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 300,
+	"type": "Пиво",
+	"mark": "LightSwitch Lager",
+	"view": "Lager",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 301,
+	"type": "Пиво",
+	"mark": "Brewhouse Blonde",
+	"view": "Kölsch",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 302,
+	"type": "Пиво",
+	"mark": "BJ's PM Porter",
+	"view": "Porter ",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 303,
+	"type": "Пиво",
+	"mark": "Harvest Hefeweizen",
+	"view": "Hefeweizen",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 304,
+	"type": "Пиво",
+	"mark": "Jeremiah Red",
+	"view": "Red Ale",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 305,
+	"type": "Пиво",
+	"mark": "Tatonka Stout",
+	"view": "Stout ",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 306,
+	"type": "Бурбон",
+	"mark": "Jim Beam",
+	"view": "-",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 307,
+	"type": "Заведение",
+	"mark": "Галерея Х. О.",
+	"view": "-",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 308,
+	"type": "Заведение",
+	"mark": "Вятич",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 309,
+	"type": "Пиво",
+	"mark": "Hoegaarden",
+	"view": "Witbier",
+	"country": "Бельгия",
+	"shape": "Шестигранник",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 310,
+	"type": "Пиво",
+	"mark": "Piranha Pale Ale",
+	"view": "Pale Ale",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 311,
+	"type": "Пиво",
+	"mark": "Nutty Brewnette",
+	"view": "Brown Ale",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 312,
+	"type": "Пиво",
+	"mark": "Duckstein Rotblondes Weizen",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 313,
+	"type": "Пиво",
+	"mark": "König Pilsener",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 314,
+	"type": "Заведение",
+	"mark": "Schüttinger Gasthausbrauerei",
+	"view": "Ресторан-пивоварня",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 315,
+	"type": "Пиво",
+	"mark": "Heineken",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 316,
+	"type": "Пиво",
+	"mark": "Heineken",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 317,
+	"type": "Пиво",
+	"mark": "KEO",
+	"view": "Lager",
+	"country": "Греция",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 318,
+	"type": "Пиво",
+	"mark": "Young's Double Chocolate Stout",
+	"view": "Stout ",
+	"country": "Англия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 319,
+	"type": "Пиво",
+	"mark": "Kirschbier",
+	"view": "Fruit Beer",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 320,
+	"type": "Пиво",
+	"mark": "Сибирская корона",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 321,
+	"type": "Чай",
+	"mark": "enerwood dream",
+	"view": "-",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 322,
+	"type": "Заведение",
+	"mark": "Korston",
+	"view": "Отель",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 323,
+	"type": "Заведение",
+	"mark": "Августин",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 324,
+	"type": "Заведение",
+	"mark": "Августин",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 325,
+	"type": "Заведение",
+	"mark": "Брянскпиво",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 326,
+	"type": "Пиво",
+	"mark": "Sion Kölsch",
+	"view": "Kölsch",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 327,
+	"type": "Пиво",
+	"mark": "Rouge de Bruxelles",
+	"view": "Fruit Beer",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 328,
+	"type": "Заведение",
+	"mark": "AF Brew",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 329,
+	"type": "Заведение",
+	"mark": "AF Brew",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 330,
+	"type": "Заведение",
+	"mark": "Бакунин",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 331,
+	"type": "Заведение",
+	"mark": "Счастье",
+	"view": "Ресторан",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 332,
+	"type": "Пиво",
+	"mark": "Holsten ",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Овал",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 333,
+	"type": "Заведение",
+	"mark": "Бакунин",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 334,
+	"type": "Пиво",
+	"mark": "Der Nussknacker ",
+	"view": "Stout ",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 335,
+	"type": "Пиво",
+	"mark": "Alpen Bier",
+	"view": "Witbier",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 336,
+	"type": "Заведение",
+	"mark": "Hacker-Pschorr",
+	"view": "Пивоварня",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 337,
+	"type": "Пиво",
+	"mark": "АЛФА",
+	"view": "Lager",
+	"country": "Греция",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 338,
+	"type": "Пиво",
+	"mark": "Löwenbräu",
+	"view": "Lager",
+	"country": "Германия",
+	"shape": "Другое",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 339,
+	"type": "Пиво",
+	"mark": "Gaffels Fassbrause Zitrone",
+	"view": "Non-Alcoholic",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 340,
+	"type": "Заведение",
+	"mark": "dunaparti matroz kocsma",
+	"view": "Ресторан",
+	"country": "Венгрия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 341,
+	"type": "Пиво",
+	"mark": "Stella Artois",
+	"view": "Lager ",
+	"country": "Бельгия",
+	"shape": "Овал",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 342,
+	"type": "Пиво",
+	"mark": "Bishops Finger",
+	"view": "Extra Special",
+	"country": "Англия",
+	"shape": "Овал",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 343,
+	"type": "Заведение",
+	"mark": "Victory Art Brew",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Другое",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 344,
+	"type": "Пиво",
+	"mark": "Titanic Royal Stout",
+	"view": "Stout ",
+	"country": "Англия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 345,
+	"type": "Пиво",
+	"mark": "Leffe",
+	"view": "Много",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 346,
+	"type": "Пиво",
+	"mark": "Tennent's Super",
+	"view": "Lager ",
+	"country": "Шотландия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 347,
+	"type": "Пиво",
+	"mark": "Ячменный колос",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 348,
+	"type": "Пиво",
+	"mark": "Warsteiner Premium Verum",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 349,
+	"type": "Пиво",
+	"mark": "Fort Ross APA",
+	"view": "Pale Ale",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 350,
+	"type": "Пиво",
+	"mark": "Kozel ",
+	"view": "Много",
+	"country": "Чехия",
+	"shape": "Овал",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 351,
+	"type": "Пиво",
+	"mark": "Hagen",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 352,
+	"type": "Заведение",
+	"mark": "Timmermans",
+	"view": "Пивоварня",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 353,
+	"type": "Виски",
+	"mark": "Ballantine's",
+	"view": "-",
+	"country": "Шотландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 354,
+	"type": "Пиво",
+	"mark": "Amstel",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 355,
+	"type": "Пиво",
+	"mark": "Paulaner",
+	"view": "Festbier",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 356,
+	"type": "Пиво",
+	"mark": "Dooliner",
+	"view": "Red Ale",
+	"country": "Ирландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 357,
+	"type": "Пиво",
+	"mark": "Friday Avenue American Lager",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 358,
+	"type": "Заведение",
+	"mark": "Country bar",
+	"view": "Ресторан-пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 359,
+	"type": "Пиво",
+	"mark": "Liebenweiss ",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 360,
+	"type": "Пиво",
+	"mark": "Erdinger Urweisse",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 361,
+	"type": "Пиво",
+	"mark": "Amstel",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 362,
+	"type": "Пиво",
+	"mark": "Tripel Karmeliet",
+	"view": "Belgian Tripel",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 363,
+	"type": "Заведение",
+	"mark": "Степан разин",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 364,
+	"type": "Заведение",
+	"mark": "Darba tiesibas",
+	"view": "Профсоюз",
+	"country": "Латвия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 365,
+	"type": "Заведение",
+	"mark": "Darba tiesibas",
+	"view": "Профсоюз",
+	"country": "Латвия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 366,
+	"type": "Пиво",
+	"mark": "Guinness",
+	"view": "Stout ",
+	"country": "Ирландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 367,
+	"type": "Пиво",
+	"mark": "HopStorm IPA",
+	"view": "IPA",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 368,
+	"type": "Ром",
+	"mark": "Malibu",
+	"view": "Ром",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 369,
+	"type": "Пиво",
+	"mark": "Grimbergen ",
+	"view": "Belgian Dubbel",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 370,
+	"type": "Заведение",
+	"mark": "Karl Strauss Brewing Company",
+	"view": "Пивоварня",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 371,
+	"type": "Заведение",
+	"mark": "Islands",
+	"view": "Ресторан",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 372,
+	"type": "Заведение",
+	"mark": "Jimmy's Famous American Tavern",
+	"view": "Ресторан",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 373,
+	"type": "Заведение",
+	"mark": "Ballast point",
+	"view": "Ресторан-пивоварня",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 374,
+	"type": "Пиво",
+	"mark": "Weihenstephan",
+	"view": "Lager ",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 375,
+	"type": "Пиво",
+	"mark": "Sion Kölsch",
+	"view": "Kölsch",
+	"country": "Германия",
+	"shape": "Овал",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 376,
+	"type": "Пиво",
+	"mark": "Zlatý Bažant",
+	"view": "Pilsner",
+	"country": "Словакия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 377,
+	"type": "Пиво",
+	"mark": "Warka ",
+	"view": "Lager ",
+	"country": "Польша",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 378,
+	"type": "Пиво",
+	"mark": "Kozel ",
+	"view": "Много",
+	"country": "Чехия",
+	"shape": "Овал",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 379,
+	"type": "Пиво",
+	"mark": "Хамовники",
+	"view": "Lager ",
+	"country": "Россия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 380,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 381,
+	"type": "Пиво",
+	"mark": "Paulaner",
+	"view": "Festbier",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 382,
+	"type": "Пиво",
+	"mark": "Heineken",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 383,
+	"type": "Пиво",
+	"mark": "Heineken",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 384,
+	"type": "Пиво",
+	"mark": "Heineken",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 385,
+	"type": "Пиво",
+	"mark": "Amstel",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 386,
+	"type": "Пиво",
+	"mark": "Gambrinus Originál 10",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 387,
+	"type": "Пиво",
+	"mark": "Gambrinus Originál 10",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 388,
+	"type": "Пиво",
+	"mark": "Svyturys Originalusis",
+	"view": "Lager ",
+	"country": "Литва",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 389,
+	"type": "Пиво",
+	"mark": "Velvet",
+	"view": "Lager",
+	"country": "Чехия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 390,
+	"type": "Пиво",
+	"mark": "Балтика 8",
+	"view": "Hefeweizen",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 391,
+	"type": "Пиво",
+	"mark": "Spaten",
+	"view": "Lager ",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 392,
+	"type": "Пиво",
+	"mark": "Heineken",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 393,
+	"type": "Пиво",
+	"mark": "Stella Artois",
+	"view": "Lager ",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 394,
+	"type": "Пиво",
+	"mark": "Paulaner Hefe-Weißbier",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 395,
+	"type": "Пиво",
+	"mark": "Арсенальное",
+	"view": "Malt Liquor",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 396,
+	"type": "Заведение",
+	"mark": "Балтика",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 397,
+	"type": "Пиво",
+	"mark": "Cervena Selka Svetle",
+	"view": "Pilsner ",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 398,
+	"type": "Пиво",
+	"mark": "Heineken",
+	"view": "Lager",
+	"country": "Голландия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 399,
+	"type": "Пиво",
+	"mark": "Andechser",
+	"view": "Lager",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 400,
+	"type": "Пиво",
+	"mark": "Tongerlo Blond",
+	"view": "Blonde Ale",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 401,
+	"type": "Пиво",
+	"mark": "Арсенальное",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 402,
+	"type": "Пиво",
+	"mark": "König Ludwig Weissbier Hell",
+	"view": "Hefeweizen",
+	"country": "Германия",
+	"shape": "Овал",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 403,
+	"type": "Водка",
+	"mark": "Kremlovskaya vodka",
+	"view": "Водка",
+	"country": "Россия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 404,
+	"type": "Заведение",
+	"mark": "Batemans",
+	"view": "Пивоварня",
+	"country": "Англия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 405,
+	"type": "Пиво",
+	"mark": "Невское",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 406,
+	"type": "Лимонад",
+	"mark": "Coca-Cola",
+	"view": "Лимонад",
+	"country": "США",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 407,
+	"type": "Пиво",
+	"mark": "Очаково",
+	"view": "Lager",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 408,
+	"type": "Пиво",
+	"mark": "Budweiser Budvar",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 409,
+	"type": "Пиво",
+	"mark": "Warsteiner Premium Verum",
+	"view": "Pilsner ",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 410,
+	"type": "Пиво",
+	"mark": "Astérie Blanche",
+	"view": "Witbier",
+	"country": "Бельгия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 411,
+	"type": "Пиво",
+	"mark": "Svyturys Originalusis",
+	"view": "Lager ",
+	"country": "Литва",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 412,
+	"type": "Заведение",
+	"mark": "Würzburger Hofbräu",
+	"view": "Пивоварня",
+	"country": "Германия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 413,
+	"type": "Заведение",
+	"mark": "Балтика",
+	"view": "Пивоварня",
+	"country": "Россия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 414,
+	"type": "Заведение",
+	"mark": "Stone Brewing",
+	"view": "Пивоварня",
+	"country": "США",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 415,
+	"type": "Заведение",
+	"mark": "-",
+	"view": "-",
+	"country": "Чехия",
+	"shape": "Круг",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 416,
+	"type": "Пиво",
+	"mark": "Bernard Sváteční Ležák",
+	"view": "Pilsner ",
+	"country": "Чехия",
+	"shape": "Ромб",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 417,
+	"type": "Пиво",
+	"mark": "Gaffel Kölsch",
+	"view": "Kölsch",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 418,
+	"type": "Пиво",
+	"mark": "Gaffel Kölsch",
+	"view": "Kölsch",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 419,
+	"type": "Пиво",
+	"mark": "Gaffel Kölsch",
+	"view": "Kölsch",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 420,
+	"type": "Пиво",
+	"mark": "Gaffel Kölsch",
+	"view": "Kölsch",
+	"country": "Германия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 421,
+	"type": "Пиво",
+	"mark": "Pilsner Urquell",
+	"view": "Pilsner ",
+	"country": "Чехия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 422,
+	"type": "Пиво",
+	"mark": "Edelweiss",
+	"view": "Hefeweizen",
+	"country": "Австрия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 423,
+	"type": "Пиво",
+	"mark": "Westmalle Trappist",
+	"view": "Belgian Dubbel",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 424,
+	"type": "Пиво",
+	"mark": "Westmalle Trappist",
+	"view": "Belgian Dubbel",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 425,
+	"type": "Пиво",
+	"mark": "Edelweiss Snowfresh",
+	"view": "Hefeweizen",
+	"country": "Австрия",
+	"shape": "Квадрат",
+	"turn": "Да",
+	"backImg": true
+}, {
+	"id": 426,
+	"type": "Пиво",
+	"mark": "Staropramen Premium",
+	"view": "Pilsner",
+	"country": "Чехия",
+	"shape": "Другое",
+	"turn": "Да",
+	"backImg": true
+}]
