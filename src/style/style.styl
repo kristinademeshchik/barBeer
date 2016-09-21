@@ -17,49 +17,54 @@ body
     position: relative
     width: 100%
     transform-style: preserve-3d
-    transition: transform 1s
+    transition: transform 0.7s
+    padding-top: 100%
 
     &_flip:hover
       transform: rotateY(180deg)
 
     @media only screen and (min-width : 250px)
       width: 50%
+      padding-top: 50%
 
     @media only screen and (min-width : 500px)
       width: 33.3333%
+      padding-top: 33.3333%
 
     @media only screen and (min-width : 750px)
       width: 25%
+      padding-top: 25%
 
     @media only screen and (min-width : 1000px)
       width: 20%
+      padding-top: 20%
 
     @media only screen and (min-width : 1266px)
       width: 16.666666%
+      padding-top: 16.666666%
 
     @media only screen and (min-width : 1500px)
       width: 14.2857%
+      padding-top: 14.2857%
 
     @media only screen and (min-width : 1700px)
       width: 12.5%
+      padding-top: 12.5%
 
     @media only screen and (min-width : 1985px)
       width: 11.111111%
+      padding-top: 11.111111%
 
     &__image
+      position: absolute
+      left: 0
+      top: 0
       display: block
-      max-height: 100%
-      max-width: 100%
       width: 100%
       height: 100%
       backface-visibility: hidden
 
       &_back
-        position: absolute
-        left: 0
-        top: 0
-        width: 100%
-        height: 100%
         transform: rotateY(180deg)
 
   &__inner
