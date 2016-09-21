@@ -16,9 +16,11 @@ class StandsList extends Component {
       }
 
       return (
-        <div className={ backImg ? "box box_flip" : "box" } key={stand.id} >
-          <img className="box__image box__image_front" src={require(`../images/stands/${stand.id}_1.png`)} />
-          {backImg}
+        <div className="box" key={stand.id} >
+          <div className={ backImg ? "box__inner box__inner_flip" : "box__inner" }>
+            <img className="box__image box__image_front" src={require(`../images/stands/${stand.id}_1.png`)} />
+            {backImg}
+          </div>
         </div>
       );
     })
