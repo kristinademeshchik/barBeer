@@ -12,14 +12,19 @@ class StandsList extends Component {
       let backImg;
 
       if (stand.backImg) {
-        backImg = <img className="box__image box__image_back" src={require(`../images/stands/${stand.id}_2.png`)} />;
+        backImg = <img className="box__stand" src={require(`../images/stands/${stand.id}_2.png`)} />;
       }
 
       return (
         <div className="box" key={stand.id} >
           <div className={ backImg ? "box__inner box__inner_flip" : "box__inner" }>
-            <img className="box__image box__image_front" src={require(`../images/stands/${stand.id}_1.png`)} />
-            {backImg}
+            <figure className="box__image box__image_front">
+              <img className="box__stand" src={require(`../images/stands/${stand.id}_1.png`)} />
+            </figure>
+            <figure className="box__image box__image_back">
+              {backImg}
+            </figure>
+
           </div>
         </div>
       );
