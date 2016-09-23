@@ -11,7 +11,7 @@ export const FILTER_MUSIC_BY_TURN = 'FILTER_MUSIC_BY_TURN';
 export const VISIBILITY_MODAL = 'VISIBILITY_MODAL';
 
 export function fetchStands() {
-  const url = '/data';
+  const url = '/data/data.json';
   const request = axios.get(url);
 
   return {

@@ -608,7 +608,7 @@
 	"view": "Pilsner",
 	"country": "Голландия",
 	"shape": "Квадрат",
-	"turn": "Да",
+	"turn": "Нет",
 	"backImg": false
 }, {
 	"id": 69,
@@ -639,6 +639,15 @@
 	"backImg": false
 }, {
 	"id": 72,
+	"type": "Пиво",
+	"mark": "Adriaen Brouwer Dark Gold",
+	"view": "Belgian Strong Dark Ale",
+	"country": "Бельгия",
+	"shape": "Квадрат",
+	"turn": "Нет",
+	"backImg": false
+}, {
+	"id": 73,
 	"type": "Заведение",
 	"mark": "2 Берега",
 	"view": "Ресторан",

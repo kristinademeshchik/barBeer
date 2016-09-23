@@ -12,7 +12,7 @@ module.exports = {
     app.use('/public', publicPath)
     app.get('/', function (_, res) { res.sendFile(indexPath) })
 
-    app.get('/data', function(req, res) {
+    app.get('/data/data.json', function(req, res) {
         res.json(data);
     });
 
