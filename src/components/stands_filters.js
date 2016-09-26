@@ -13,6 +13,11 @@ import {
 } from '../actions/index';
 
 class StandsFilters extends Component {
+  authorInfo() {
+    document.body.classList.toggle('menu-opened');
+    this.props.visibilityModal('block')
+  }
+
   render() {
     if (!this.props.loaded) {
       return (
@@ -28,8 +33,7 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedType}
               onChange={e => this.props.filterMusicByType(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Тип</option>
+              <option value="all">Тип (все)</option>
               {this.props.type.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -41,8 +45,7 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedMark}
               onChange={e => this.props.filterMusicByMark(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Марка</option>
+              <option value="all">Марка (все)</option>
               {this.props.mark.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -54,8 +57,7 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedView}
               onChange={e => this.props.filterMusicByView(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Вид</option>
+              <option value="all">Вид (все)</option>
               {this.props.view.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -67,8 +69,7 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedCountry}
               onChange={e => this.props.filterMusicByCountry(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Страна</option>
+              <option value="all">Страна (все)</option>
               {this.props.country.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -80,8 +81,7 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedShape}
               onChange={e => this.props.filterMusicByShape(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Форма</option>
+              <option value="all">Форма (все)</option>
               {this.props.shape.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -93,8 +93,7 @@ class StandsFilters extends Component {
               className="form-group__select"
               value={this.props.selectedTurn}
               onChange={e => this.props.filterMusicByTurn(e.target.value)}>
-              <option value="all">Все</option>
-              <option value="all">Оборот</option>
+              <option value="all">Оборот (все)</option>
               {this.props.turn.map((y, i) =>
                   <option key={i} value={y}>{y}</option>
               )}
@@ -106,7 +105,7 @@ class StandsFilters extends Component {
           </div>
 
           <div className="form-group form-group_links">
-            <span className="form-group__link" onClick={() => this.props.visibilityModal('block')}>о сайте</span>
+            <span className="form-group__link" onClick={() => this.authorInfo()}>о сайте</span>
           </div>
         </div>
       );
@@ -134,7 +133,8 @@ function getFilters(key, stands) {
       return [...acc, item[key]];
     }
     return acc;
-  }, []);
+  }, [])
+  .sort();
 }
 
 
