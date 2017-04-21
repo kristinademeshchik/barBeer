@@ -1,7 +1,9 @@
 # barBeer
 Beer stands collection build on React
-To build the project do the following commands:
 
-open cmd/terminal in the project directory
-> npm install
-> npm run build
+
+### Running the project Locally
+
+You can build the project by running the following (open cmd/terminal in the project directory)
+    % npm install
+    % npm run build
