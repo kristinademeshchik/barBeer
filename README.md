@@ -1,5 +1,5 @@
 # barBeer
-Beer stands collection build on React
+Beer stands collection built on React
 
 
 ### Running the project Locally
